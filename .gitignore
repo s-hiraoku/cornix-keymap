@@ -3,7 +3,6 @@
 build/
 firmware/
 zmk/
-zephyr/
 modules/
 tools/
 bootloader/

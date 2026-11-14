@@ -6,6 +6,8 @@ on:
     paths:
       - config/**
       - build.yaml
+      - Kconfig
+      - zephyr/**
       - tests/**
       - scripts/**
       - .github/workflows/**

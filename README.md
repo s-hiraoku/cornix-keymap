@@ -83,6 +83,8 @@ Layer 4 は MOUSE キーで手動操作できます。U/I/O は左/中/右クリ
 [Actions](https://github.com/s-hiraoku/cornix-keymap/actions) の **Build Cornix ZMK** が、
 入力検証後に左右のファームウェアと設定リセット用 UF2 をビルドします。
 ZMK と Cornix の基板モジュールは `config/west.yml` でコミットを固定しています。
+ルートの `Kconfig` は、この基板モジュールの Cornix 専用ボードに対し、
+新しい ZMK CI が要求する `ZMK_BOARD_COMPAT` 宣言を補います。
 
 | ファイル | 用途 |
 |---|---|

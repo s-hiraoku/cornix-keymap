@@ -19,6 +19,8 @@
 
 1. 片側だけをデータ通信対応 USB ケーブルで Mac に接続します。
 2. リセットボタンを素早く2回押し、UF2 ドライブを表示します。
+   左側では C と V の間の下、親指キーのすぐ上にある小さなボタンです。
+   [位置の写真](https://github.com/numachang/cornix-zmk-custom/blob/ade15a303257ffb2c11357839ff39199b863b087/docs/images/12-reset-button.png)も参照してください。
 3. リポジトリのルートで `bash scripts/bootloader-info.sh` を実行します。
 4. 左右を取り違えないように、どちら側の出力か記録します。
 5. もう片側でも同様に情報を取得します。
