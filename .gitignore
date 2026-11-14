@@ -1,0 +1,13 @@
+.west/
+.build/
+build/
+firmware/
+zmk/
+zephyr/
+modules/
+tools/
+bootloader/
+cornix-zmk-custom/
+__pycache__/
+*.pyc
+.DS_Store
