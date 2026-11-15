@@ -7,76 +7,38 @@ macOS・US（ANSI）配列向けの Cornix LP 用 ZMK 設定です。
 
 ## キー配置
 
-各行は左から右。最下段の `BT` と `MOUSE`、外周キー、ノブは Cornix の追加キーです。
+元の40キーだけを割り当てます。**通常・Fn・数字・記号・BT の5レイヤーと、
+同時押しを1枚のSVGにまとめました。** 画像をクリックすると拡大できます。
 
-```text
-Esc    Q    W    E    R    T         Y    U    I    O    P    Bksp
-Tab    A    S    D    F    G         H    J    K    L    ;    Enter
-Shift  Z    X    C    V    B   [左ノブ] [右ノブ] N  M  ,  .  '  /-Shift
-Shift  Alt  Cmd  BT   Space/Fn Ctrl  Bksp Enter/Num Symbol MOUSE Alt /-Shift
-```
+[![Cornix LPの40キー配列：通常、Fn、数字、記号、BT、同時押し](docs/keymap.svg)](docs/keymap.svg)
 
-- **Space/Fn**: タップで Space、長押しで Layer 1。左親指だけ元の `retro-tap` を維持。
-- **Enter/Num**: タップで Enter、長押しで Layer 2。
-- **Symbol**: 元の `&lt_r 3 RSHFT`。タップは右 Shift、長押しで Layer 3。
-- **/-Shift**: タップは `/`、長押しは右 Shift。
-- **D+F**: 英数（LANG2）、**J+K**: かな（LANG1）。全レイヤーで物理位置を維持。
-- **Q+W**: Esc、**A+S**: Tab、**親指 Bksp+Symbol**: Layer 8。基本レイヤーのみ。
-- **BT**: 押している間 Layer 8。**MOUSE**: 押している間 Layer 4。
-- 左ノブ: 音量。押し込みはミュート。右ノブ: 縦スクロール。押し込みは中クリック。
+- **キーの上段**：タップ時の入力、またはそのキーの動作。
+- **青い下段**：長押し時の動作。例：`Space / L1 Fn` はタップで空白、長押しでFn。
+- **灰色の下段**：動作の補足。BTの接続先選択・消去・通常へ戻るキーは、長押し不要です。
+- **▽**：下位の有効なレイヤーを使う（キーの無効化ではありません）。
+- **Symbol**：右親指の `RShift / L3 Symbol`。タップ側は右Shift、長押しで記号レイヤー。
+  右端の `/ / RShift` は、タップで `/`、長押しで右Shiftです。
+- **Alt = Option、Cmd = Command**。左Spaceだけ元の `retro-tap` を維持します。
 
-### Layer 1 — FUNCTION（Space 長押し）
+各レイヤーは元の40キーを4行×左右5列に揃えた模式図です。
+基板定義にある残り10位置（外周・追加親指位置・ノブ押し込み）は、
+全5レイヤーで `&none`（無効）です。ノブ回転も無効です。
 
-```text
-F1 F2 F3 F4 F5       F7   F8   F9   F10 F11
- -  -  -  - F6       ←    ↓    ↑    →   F12
- -  -  -  -  -       Home PgDn PgUp End Del
-```
-
-### Layer 2 — NUMBER（親指 Enter 長押し）
-
-```text
-1 2 3 4 5            + - * / =
-6 7 8 9 0            . , ( ) %
-```
-
-Layer 2 では親指 Bksp が Delete になります。
-
-### Layer 3 — SYMBOL（Symbol 長押し）
-
-```text
-! @ # $ %            ^ & * ~ `
-{ } ( ) =            - _ | \ +
-[ ] < > ?            / " : ; '
-```
-
-### Layer 8 — BT
-
-Q/W/E はミュート・音量下・音量上。A/S/D/F/G は BT0〜BT4。
-Z は現在のペアリング消去、X は全ペアリング消去です（元設定と同じ）。
-LCTRL と右 Alt の物理位置は `to 0`。Cornix の外周 Esc は Studio の Unlock、
-外周 Bksp は `to 0` にしています。
-
-## 元設定との一致範囲
+## 元設定から維持する動作とCornix向けの変更
 
 - 参照コミット: `35b175d2717d9d09373212c6f93f6aa80deb338a`。
-- 元の **40 キー × 14 レイヤー = 560 bindings** を位置対応で保持。
-- 5 コンボの出力・80/50ms 判定・適用レイヤーを保持。
-- `lt_l` / `lt_r` / `menu_lt` 等の behavior を保持。
-  `180ms` / `quick-tap-ms=125` / `require-prior-idle-ms=90`、
-  左 Space だけの `retro-tap` も元の記述を使います。
-- ドラッグロックと、終了時にボタンを先に離すマクロも保持。
-- 元の40キー以外の10位置は、外周キー・ノブ押し込み・BT/MOUSEキーとして追加。
-
-**Cornix LP にトラックボールはありません。** センサードライバー、加速、精密化、
-軸固定、移動によるマウスレイヤーや SCROLL MENU の自動発動は含めていません。
-Layers 5/6/7/9/11/12/13 のキー定義は保持していますが、センサー由来の動作は発生しません。
-Y/H/P 長押しは元と同じレイヤーに入りますが、トラックボールジェスチャーはありません。
-独自の「Y+方向キーで画面操作」といった代替操作は追加していません。
-
-Layer 4 は MOUSE キーで手動操作できます。U/I/O は左/中/右クリック、J/L は
-ボタン4/5、K 長押しはドラッグロックです。ポインター自体は別のマウス等で動かします。
-元と同じ14層を保持することと、センサー機能まで動くことは別です。
+- 文字・Fn・数字・記号・BTのキー配置を移植。下記のY/H/P以外は対応する元のキー定義を保持します。
+- 5コンボの操作・80/50ms判定・適用レイヤーを維持します。
+- Space / Enter / Symbol / 右端 `/` の長押し判定も維持します。
+  `180ms` / `quick-tap-ms=125` / `require-prior-idle-ms=90`、左Spaceだけの `retro-tap` も元と同じです。
+- **Y・H・Pは通常の文字キー**です。長押しでも文字をリピートし、別レイヤーへ移動しません。
+- **トラックボール専用の9レイヤーとマクロを削除**しました。
+  Cornixにないセンサーを前提とするMOUSE / GESTURE / TAB / DESKTOP / ZOOM / DRAG /
+  PRECISION / HSCROLL / SCROLL MENUは含めません。
+- BTは元のLayer 8から**Layer 4**へ番号を整理しました。
+  入口は元と同じ親指Bksp+Symbol、通常への復帰はLCtrl / RAltの位置です。
+- 元の40キー以外の10位置、ノブ回転・押し込みは無効です。
+  外周キーや追加のBT/MOUSEキー、Studio Unlockを割り当てません。
 
 ## ビルドと導入
 
@@ -98,20 +60,26 @@ ZMK と Cornix の基板モジュールは `config/west.yml` でコミットを�
 
 ## AI と設定を変更する
 
-1. 元のキー動作を変える場合は `tests/fixtures/KobitoKey.keymap` を編集する。
-   Cornix 固有位置を変える場合は `scripts/import_kobitokey.py` の位置対応・追加キーを編集する。
+1. `tests/fixtures/KobitoKey.keymap` は参照元の記録として保持する。
+   Cornix向けの位置対応・文字キー化・採用レイヤーは `scripts/import_kobitokey.py` で管理する。
 2. `python3 scripts/import_kobitokey.py` で `config/cornix.keymap` を生成する。
-3. `python3 -m unittest discover -s tests -v` で参照元・物理位置との整合を確認する。
-4. Git に保存し、Actions のビルド結果を確認する。
+3. `python3 scripts/render_keymap.py` でREADME用のSVGを更新する。
+4. `python3 -m unittest discover -s tests -v` で参照元・物理位置との整合を確認する。
+   SVGの更新漏れは `python3 scripts/render_keymap.py --check` で確認できる。
+5. Git に保存し、Actions のビルド結果を確認する。
 
 参照 fixture はリポジトリ内に保存してあり、ビルド時に元リポジトリの main を取得しません。
-意図して元のコンボ・長押し仕様を変更した場合は、該当する検証もその意図に合わせて更新します。
+意図してコンボ・長押し仕様を変更した場合は、該当する検証もその意図に合わせて更新します。
 
 ZMK へ移行後、Vial/vitaly の `.vil` は ZMK には適用できません。
-配置確認には [ZMK Studio](https://zmk.studio/) を使います。BTレイヤーで外周 Esc を押すと
-Unlock できます。コンボ、長押し判定、マクロ、ノブの設定はソースで管理します。
+配置確認には [ZMK Studio](https://zmk.studio/) を使います。
+元の40キーには Studio Unlock がないため、解除用のキーやコンボは追加しません。
+コンボ、長押し判定、マクロはソースで管理します。
 Studio の **Save** で配置を変更すると保存済み配置がソースより優先されるため、
 ソース変更を反映させるときは Studio の **Restore Stock Settings** が必要です。
+解除用キーが実機にない場合、保存済み配置を消すには設定リセット用 UF2 を使います。
+この方法はペアリングも消すため、更新手順の注意事項を確認してください。
+Studio で設定を変更していなければ、設定リセットは不要です。
 
 ## 参照
 

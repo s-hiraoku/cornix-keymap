@@ -1,0 +1,870 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="2394" viewBox="0 0 1120 2394" role="img" aria-labelledby="title desc">
+<title id="title">Cornix LP — KobitoKey / 40 keys</title>
+<desc id="desc">現在のキーマップから生成。上段はタップ、青い下段は長押し。透過は▽。元の40キーのみを図示。</desc>
+<g font-family="&#x27;Noto Sans CJK JP&#x27;,&#x27;Hiragino Kaku Gothic ProN&#x27;,&#x27;Yu Gothic&#x27;,sans-serif">
+<rect x="0" y="0" width="1120" height="2394" rx="0" fill="#f5f8fc" stroke="none"/>
+<text x="32" y="45" font-size="29" fill="#18304b" font-weight="700" text-anchor="start">Cornix LP — KobitoKey / 40 keys</text>
+<text x="32" y="78" font-size="17" fill="#52667e" font-weight="400" text-anchor="start">上段：タップ / 動作　　青い下段：長押し　　▽：下位の有効なレイヤーを使う</text>
+<text x="32" y="106" font-size="16" fill="#52667e" font-weight="400" text-anchor="start">40キー・5レイヤー。Y / H / P は通常の文字キー。外周・追加位置・ノブは無効。</text>
+<g id="layer-0">
+<rect x="16" y="124" width="1088" height="384" rx="12" fill="#fff" stroke="#d8e1ec"/>
+<rect x="32" y="144" width="5" height="32" rx="2" fill="#246bc4" stroke="none"/>
+<text x="49" y="168" font-size="25" fill="#18304b" font-weight="700" text-anchor="start">00  DEFAULT</text>
+<text x="36" y="197" font-size="15" fill="#52667e" font-weight="400" text-anchor="start">通常入力  ·  青い下段は長押しの動作  ·  Alt = Option / Cmd = Command</text>
+<g><title>&amp;kp Q</title>
+<rect x="36" y="216" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="80" y="253" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">Q</text>
+</g>
+<g><title>&amp;kp W</title>
+<rect x="132" y="216" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="176" y="253" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">W</text>
+</g>
+<g><title>&amp;kp E</title>
+<rect x="228" y="216" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="272" y="253" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">E</text>
+</g>
+<g><title>&amp;kp R</title>
+<rect x="324" y="216" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="368" y="253" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">R</text>
+</g>
+<g><title>&amp;kp T</title>
+<rect x="420" y="216" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="464" y="253" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">T</text>
+</g>
+<g><title>&amp;kp Y</title>
+<rect x="612" y="216" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="656" y="253" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">Y</text>
+</g>
+<g><title>&amp;kp U</title>
+<rect x="708" y="216" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="752" y="253" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">U</text>
+</g>
+<g><title>&amp;kp I</title>
+<rect x="804" y="216" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="848" y="253" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">I</text>
+</g>
+<g><title>&amp;kp O</title>
+<rect x="900" y="216" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="944" y="253" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">O</text>
+</g>
+<g><title>&amp;kp P</title>
+<rect x="996" y="216" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="1040" y="253" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">P</text>
+</g>
+<g><title>&amp;kp A</title>
+<rect x="36" y="282" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="80" y="319" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">A</text>
+</g>
+<g><title>&amp;kp S</title>
+<rect x="132" y="282" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="176" y="319" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">S</text>
+</g>
+<g><title>&amp;kp D</title>
+<rect x="228" y="282" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="272" y="319" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">D</text>
+</g>
+<g><title>&amp;kp F</title>
+<rect x="324" y="282" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="368" y="319" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">F</text>
+</g>
+<g><title>&amp;kp G</title>
+<rect x="420" y="282" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="464" y="319" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">G</text>
+</g>
+<g><title>&amp;kp H</title>
+<rect x="612" y="282" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="656" y="319" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">H</text>
+</g>
+<g><title>&amp;kp J</title>
+<rect x="708" y="282" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="752" y="319" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">J</text>
+</g>
+<g><title>&amp;kp K</title>
+<rect x="804" y="282" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="848" y="319" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">K</text>
+</g>
+<g><title>&amp;kp L</title>
+<rect x="900" y="282" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="944" y="319" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">L</text>
+</g>
+<g><title>&amp;kp SEMI</title>
+<rect x="996" y="282" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="1040" y="319" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">;</text>
+</g>
+<g><title>&amp;kp Z</title>
+<rect x="36" y="348" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="80" y="385" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">Z</text>
+</g>
+<g><title>&amp;kp X</title>
+<rect x="132" y="348" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="176" y="385" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">X</text>
+</g>
+<g><title>&amp;kp C</title>
+<rect x="228" y="348" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="272" y="385" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">C</text>
+</g>
+<g><title>&amp;kp V</title>
+<rect x="324" y="348" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="368" y="385" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">V</text>
+</g>
+<g><title>&amp;kp B</title>
+<rect x="420" y="348" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="464" y="385" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">B</text>
+</g>
+<g><title>&amp;kp N</title>
+<rect x="612" y="348" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="656" y="385" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">N</text>
+</g>
+<g><title>&amp;kp M</title>
+<rect x="708" y="348" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="752" y="385" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">M</text>
+</g>
+<g><title>&amp;kp COMMA</title>
+<rect x="804" y="348" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="848" y="385" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">,</text>
+</g>
+<g><title>&amp;kp DOT</title>
+<rect x="900" y="348" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="944" y="385" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">.</text>
+</g>
+<g><title>&amp;kp APOS</title>
+<rect x="996" y="348" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="1040" y="385" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">&#x27;</text>
+</g>
+<g><title>&amp;kp LSHFT</title>
+<rect x="36" y="414" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="80" y="451" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">LShift</text>
+</g>
+<g><title>&amp;kp LALT</title>
+<rect x="132" y="414" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="176" y="451" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">LAlt</text>
+</g>
+<g><title>&amp;kp LCMD</title>
+<rect x="228" y="414" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="272" y="451" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">LCmd</text>
+</g>
+<g><title>&amp;lt_l 1 SPACE</title>
+<rect x="324" y="414" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
+<text x="368" y="442" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">Space</text>
+<text x="368" y="461" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">L1 Fn</text>
+</g>
+<g><title>&amp;kp LCTRL</title>
+<rect x="420" y="414" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="464" y="451" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">LCtrl</text>
+</g>
+<g><title>&amp;kp BSPC</title>
+<rect x="612" y="414" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="656" y="451" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">Bksp</text>
+</g>
+<g><title>&amp;lt_r 2 ENTER</title>
+<rect x="708" y="414" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
+<text x="752" y="442" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">Enter</text>
+<text x="752" y="461" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">L2 Num</text>
+</g>
+<g><title>&amp;lt_r 3 RSHFT</title>
+<rect x="804" y="414" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
+<text x="848" y="442" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">RShift</text>
+<text x="848" y="461" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">L3 Symbol</text>
+</g>
+<g><title>&amp;kp RALT</title>
+<rect x="900" y="414" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="944" y="451" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">RAlt</text>
+</g>
+<g><title>&amp;mt RSHFT SLASH</title>
+<rect x="996" y="414" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
+<text x="1040" y="442" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">/</text>
+<text x="1040" y="461" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">RShift</text>
+</g>
+</g>
+<g id="layer-1">
+<rect x="16" y="524" width="1088" height="384" rx="12" fill="#fff" stroke="#d8e1ec"/>
+<rect x="32" y="544" width="5" height="32" rx="2" fill="#246bc4" stroke="none"/>
+<text x="49" y="568" font-size="25" fill="#18304b" font-weight="700" text-anchor="start">01  FUNCTION</text>
+<text x="36" y="597" font-size="15" fill="#52667e" font-weight="400" text-anchor="start">Space を押しながら操作  ·  Fキー / カーソル / ページ移動</text>
+<g><title>&amp;kp F1</title>
+<rect x="36" y="616" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="80" y="653" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">F1</text>
+</g>
+<g><title>&amp;kp F2</title>
+<rect x="132" y="616" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="176" y="653" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">F2</text>
+</g>
+<g><title>&amp;kp F3</title>
+<rect x="228" y="616" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="272" y="653" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">F3</text>
+</g>
+<g><title>&amp;kp F4</title>
+<rect x="324" y="616" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="368" y="653" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">F4</text>
+</g>
+<g><title>&amp;kp F5</title>
+<rect x="420" y="616" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="464" y="653" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">F5</text>
+</g>
+<g><title>&amp;kp F7</title>
+<rect x="612" y="616" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="656" y="653" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">F7</text>
+</g>
+<g><title>&amp;kp F8</title>
+<rect x="708" y="616" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="752" y="653" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">F8</text>
+</g>
+<g><title>&amp;kp F9</title>
+<rect x="804" y="616" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="848" y="653" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">F9</text>
+</g>
+<g><title>&amp;kp F10</title>
+<rect x="900" y="616" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="944" y="653" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">F10</text>
+</g>
+<g><title>&amp;kp F11</title>
+<rect x="996" y="616" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="1040" y="653" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">F11</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;kp F6</title>
+<rect x="420" y="682" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="464" y="719" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">F6</text>
+</g>
+<g><title>&amp;kp LEFT</title>
+<rect x="612" y="682" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="656" y="719" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">←</text>
+</g>
+<g><title>&amp;kp DOWN</title>
+<rect x="708" y="682" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="752" y="719" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">↓</text>
+</g>
+<g><title>&amp;kp UP</title>
+<rect x="804" y="682" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="848" y="719" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">↑</text>
+</g>
+<g><title>&amp;kp RIGHT</title>
+<rect x="900" y="682" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="944" y="719" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">→</text>
+</g>
+<g><title>&amp;kp F12</title>
+<rect x="996" y="682" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="1040" y="719" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">F12</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;kp HOME</title>
+<rect x="612" y="748" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="656" y="785" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">Home</text>
+</g>
+<g><title>&amp;kp PG_DN</title>
+<rect x="708" y="748" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="752" y="785" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">PgDn</text>
+</g>
+<g><title>&amp;kp PG_UP</title>
+<rect x="804" y="748" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="848" y="785" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">PgUp</text>
+</g>
+<g><title>&amp;kp END</title>
+<rect x="900" y="748" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="944" y="785" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">End</text>
+</g>
+<g><title>&amp;kp DEL</title>
+<rect x="996" y="748" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="1040" y="785" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">Delete</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+</g>
+<g id="layer-2">
+<rect x="16" y="924" width="1088" height="384" rx="12" fill="#fff" stroke="#d8e1ec"/>
+<rect x="32" y="944" width="5" height="32" rx="2" fill="#246bc4" stroke="none"/>
+<text x="49" y="968" font-size="25" fill="#18304b" font-weight="700" text-anchor="start">02  NUMBER</text>
+<text x="36" y="997" font-size="15" fill="#52667e" font-weight="400" text-anchor="start">親指 Enter を押しながら操作  ·  数字 / 四則演算  ·  親指 Bksp は Delete</text>
+<g><title>&amp;kp N1</title>
+<rect x="36" y="1016" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="80" y="1053" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">1</text>
+</g>
+<g><title>&amp;kp N2</title>
+<rect x="132" y="1016" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="176" y="1053" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">2</text>
+</g>
+<g><title>&amp;kp N3</title>
+<rect x="228" y="1016" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="272" y="1053" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">3</text>
+</g>
+<g><title>&amp;kp N4</title>
+<rect x="324" y="1016" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="368" y="1053" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">4</text>
+</g>
+<g><title>&amp;kp N5</title>
+<rect x="420" y="1016" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="464" y="1053" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">5</text>
+</g>
+<g><title>&amp;kp PLUS</title>
+<rect x="612" y="1016" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="656" y="1053" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">+</text>
+</g>
+<g><title>&amp;kp MINUS</title>
+<rect x="708" y="1016" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="752" y="1053" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">-</text>
+</g>
+<g><title>&amp;kp ASTRK</title>
+<rect x="804" y="1016" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="848" y="1053" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">*</text>
+</g>
+<g><title>&amp;kp SLASH</title>
+<rect x="900" y="1016" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="944" y="1053" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">/</text>
+</g>
+<g><title>&amp;kp EQUAL</title>
+<rect x="996" y="1016" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="1040" y="1053" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">=</text>
+</g>
+<g><title>&amp;kp N6</title>
+<rect x="36" y="1082" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="80" y="1119" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">6</text>
+</g>
+<g><title>&amp;kp N7</title>
+<rect x="132" y="1082" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="176" y="1119" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">7</text>
+</g>
+<g><title>&amp;kp N8</title>
+<rect x="228" y="1082" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="272" y="1119" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">8</text>
+</g>
+<g><title>&amp;kp N9</title>
+<rect x="324" y="1082" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="368" y="1119" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">9</text>
+</g>
+<g><title>&amp;kp N0</title>
+<rect x="420" y="1082" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="464" y="1119" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">0</text>
+</g>
+<g><title>&amp;kp DOT</title>
+<rect x="612" y="1082" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="656" y="1119" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">.</text>
+</g>
+<g><title>&amp;kp COMMA</title>
+<rect x="708" y="1082" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="752" y="1119" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">,</text>
+</g>
+<g><title>&amp;kp LPAR</title>
+<rect x="804" y="1082" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="848" y="1119" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">(</text>
+</g>
+<g><title>&amp;kp RPAR</title>
+<rect x="900" y="1082" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="944" y="1119" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">)</text>
+</g>
+<g><title>&amp;kp PRCNT</title>
+<rect x="996" y="1082" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="1040" y="1119" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">%</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="1148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="1185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="1148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="1185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="1148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="1185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="1148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="1185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="1148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="1185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="1148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="1185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="1148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="1185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="1148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="1185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="1148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="1185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="1148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="1185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="1214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="1251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="1214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="1251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="1214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="1251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="1214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="1251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="1214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="1251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;kp DEL</title>
+<rect x="612" y="1214" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="656" y="1251" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">Delete</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="1214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="1251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="1214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="1251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="1214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="1251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="1214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="1251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+</g>
+<g id="layer-3">
+<rect x="16" y="1324" width="1088" height="384" rx="12" fill="#fff" stroke="#d8e1ec"/>
+<rect x="32" y="1344" width="5" height="32" rx="2" fill="#246bc4" stroke="none"/>
+<text x="49" y="1368" font-size="25" fill="#18304b" font-weight="700" text-anchor="start">03  SYMBOL</text>
+<text x="36" y="1397" font-size="15" fill="#52667e" font-weight="400" text-anchor="start">親指 Symbol（タップ側は RShift）を押しながら操作  ·  Shift 不要の記号入力</text>
+<g><title>&amp;kp EXCL</title>
+<rect x="36" y="1416" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="80" y="1453" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">!</text>
+</g>
+<g><title>&amp;kp AT</title>
+<rect x="132" y="1416" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="176" y="1453" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">@</text>
+</g>
+<g><title>&amp;kp HASH</title>
+<rect x="228" y="1416" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="272" y="1453" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">#</text>
+</g>
+<g><title>&amp;kp DLLR</title>
+<rect x="324" y="1416" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="368" y="1453" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">$</text>
+</g>
+<g><title>&amp;kp PRCNT</title>
+<rect x="420" y="1416" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="464" y="1453" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">%</text>
+</g>
+<g><title>&amp;kp CARET</title>
+<rect x="612" y="1416" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="656" y="1453" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">^</text>
+</g>
+<g><title>&amp;kp AMPS</title>
+<rect x="708" y="1416" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="752" y="1453" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">&amp;</text>
+</g>
+<g><title>&amp;kp ASTRK</title>
+<rect x="804" y="1416" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="848" y="1453" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">*</text>
+</g>
+<g><title>&amp;kp TILDE</title>
+<rect x="900" y="1416" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="944" y="1453" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">~</text>
+</g>
+<g><title>&amp;kp GRAVE</title>
+<rect x="996" y="1416" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="1040" y="1453" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">`</text>
+</g>
+<g><title>&amp;kp LBRC</title>
+<rect x="36" y="1482" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="80" y="1519" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">{</text>
+</g>
+<g><title>&amp;kp RBRC</title>
+<rect x="132" y="1482" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="176" y="1519" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">}</text>
+</g>
+<g><title>&amp;kp LPAR</title>
+<rect x="228" y="1482" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="272" y="1519" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">(</text>
+</g>
+<g><title>&amp;kp RPAR</title>
+<rect x="324" y="1482" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="368" y="1519" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">)</text>
+</g>
+<g><title>&amp;kp EQUAL</title>
+<rect x="420" y="1482" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="464" y="1519" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">=</text>
+</g>
+<g><title>&amp;kp MINUS</title>
+<rect x="612" y="1482" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="656" y="1519" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">-</text>
+</g>
+<g><title>&amp;kp UNDER</title>
+<rect x="708" y="1482" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="752" y="1519" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">_</text>
+</g>
+<g><title>&amp;kp PIPE</title>
+<rect x="804" y="1482" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="848" y="1519" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">|</text>
+</g>
+<g><title>&amp;kp BSLH</title>
+<rect x="900" y="1482" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="944" y="1519" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">\</text>
+</g>
+<g><title>&amp;kp PLUS</title>
+<rect x="996" y="1482" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="1040" y="1519" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">+</text>
+</g>
+<g><title>&amp;kp LBKT</title>
+<rect x="36" y="1548" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="80" y="1585" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">[</text>
+</g>
+<g><title>&amp;kp RBKT</title>
+<rect x="132" y="1548" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="176" y="1585" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">]</text>
+</g>
+<g><title>&amp;kp LT</title>
+<rect x="228" y="1548" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="272" y="1585" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">&lt;</text>
+</g>
+<g><title>&amp;kp GT</title>
+<rect x="324" y="1548" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="368" y="1585" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">&gt;</text>
+</g>
+<g><title>&amp;kp QMARK</title>
+<rect x="420" y="1548" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="464" y="1585" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">?</text>
+</g>
+<g><title>&amp;kp SLASH</title>
+<rect x="612" y="1548" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="656" y="1585" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">/</text>
+</g>
+<g><title>&amp;kp DQT</title>
+<rect x="708" y="1548" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="752" y="1585" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">&quot;</text>
+</g>
+<g><title>&amp;kp COLON</title>
+<rect x="804" y="1548" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="848" y="1585" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">:</text>
+</g>
+<g><title>&amp;kp SEMI</title>
+<rect x="900" y="1548" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="944" y="1585" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">;</text>
+</g>
+<g><title>&amp;kp APOS</title>
+<rect x="996" y="1548" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="1040" y="1585" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">&#x27;</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="1614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="1614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="1614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="1614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="1614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="1614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="1614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="1614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="1614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="1614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+</g>
+<g id="layer-4">
+<rect x="16" y="1724" width="1088" height="384" rx="12" fill="#fff" stroke="#d8e1ec"/>
+<rect x="32" y="1744" width="5" height="32" rx="2" fill="#246bc4" stroke="none"/>
+<text x="49" y="1768" font-size="25" fill="#18304b" font-weight="700" text-anchor="start">04  BT</text>
+<text x="36" y="1797" font-size="15" fill="#52667e" font-weight="400" text-anchor="start">親指 Bksp + Symbol の同時押しで入る  ·  LCtrl / RAlt の位置で通常へ戻る</text>
+<g><title>&amp;kp C_MUTE</title>
+<rect x="36" y="1816" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="80" y="1853" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">Mute</text>
+</g>
+<g><title>&amp;kp C_VOL_DN</title>
+<rect x="132" y="1816" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="176" y="1853" font-size="16" fill="#18304b" font-weight="600" text-anchor="middle">Vol −</text>
+</g>
+<g><title>&amp;kp C_VOL_UP</title>
+<rect x="228" y="1816" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="272" y="1853" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">Vol +</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="1816" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="1853" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="1816" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="1853" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="1816" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="1853" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="1816" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="1853" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="1816" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="1853" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="1816" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="1853" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="1816" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="1853" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;bt BT_SEL 0</title>
+<rect x="36" y="1882" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="80" y="1910" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">BT 0</text>
+<text x="80" y="1929" font-size="12" fill="#52667e" font-weight="500" text-anchor="middle">接続先を選択</text>
+</g>
+<g><title>&amp;bt BT_SEL 1</title>
+<rect x="132" y="1882" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="176" y="1910" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">BT 1</text>
+<text x="176" y="1929" font-size="12" fill="#52667e" font-weight="500" text-anchor="middle">接続先を選択</text>
+</g>
+<g><title>&amp;bt BT_SEL 2</title>
+<rect x="228" y="1882" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="272" y="1910" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">BT 2</text>
+<text x="272" y="1929" font-size="12" fill="#52667e" font-weight="500" text-anchor="middle">接続先を選択</text>
+</g>
+<g><title>&amp;bt BT_SEL 3</title>
+<rect x="324" y="1882" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="368" y="1910" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">BT 3</text>
+<text x="368" y="1929" font-size="12" fill="#52667e" font-weight="500" text-anchor="middle">接続先を選択</text>
+</g>
+<g><title>&amp;bt BT_SEL 4</title>
+<rect x="420" y="1882" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="464" y="1910" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">BT 4</text>
+<text x="464" y="1929" font-size="12" fill="#52667e" font-weight="500" text-anchor="middle">接続先を選択</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="1882" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="1919" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="1882" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="1919" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="1882" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="1919" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="1882" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="1919" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="1882" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="1919" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;bt BT_CLR</title>
+<rect x="36" y="1948" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="80" y="1976" font-size="16" fill="#18304b" font-weight="600" text-anchor="middle">BT消去</text>
+<text x="80" y="1995" font-size="12" fill="#52667e" font-weight="500" text-anchor="middle">現在の接続先</text>
+</g>
+<g><title>&amp;bt BT_CLR_ALL</title>
+<rect x="132" y="1948" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="176" y="1976" font-size="16" fill="#18304b" font-weight="600" text-anchor="middle">BT全消去</text>
+<text x="176" y="1995" font-size="12" fill="#52667e" font-weight="500" text-anchor="middle">全ペアリング</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="1948" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="1985" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="1948" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="1985" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="1948" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="1985" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="1948" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="1985" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="1948" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="1985" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="1948" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="1985" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="1948" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="1985" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="1948" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="1985" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="2014" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="2051" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="2014" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="2051" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="2014" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="2051" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="2014" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="2051" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;to 0</title>
+<rect x="420" y="2014" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="464" y="2042" font-size="16" fill="#18304b" font-weight="600" text-anchor="middle">通常へ</text>
+<text x="464" y="2061" font-size="12" fill="#52667e" font-weight="500" text-anchor="middle">Layer 0</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="2014" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="2051" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="2014" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="2051" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="2014" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="2051" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;to 0</title>
+<rect x="900" y="2014" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="944" y="2042" font-size="16" fill="#18304b" font-weight="600" text-anchor="middle">通常へ</text>
+<text x="944" y="2061" font-size="12" fill="#52667e" font-weight="500" text-anchor="middle">Layer 0</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="2014" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="2051" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+</g>
+<rect x="16" y="2124" width="1088" height="238" rx="12" fill="#fff" stroke="#d8e1ec"/>
+<text x="36" y="2163" font-size="24" fill="#18304b" font-weight="700" text-anchor="start">同時押し / COMBOS</text>
+<rect x="36" y="2184" width="516" height="46" rx="8" fill="#f1f6fc" stroke="none"/>
+<text x="50" y="2204" font-size="16" fill="#18304b" font-weight="600" text-anchor="start">D + F  →  英数</text>
+<text x="50" y="2222" font-size="12" fill="#52667e" font-weight="400" text-anchor="start">全レイヤー  ·  80 ms</text>
+<rect x="570" y="2184" width="516" height="46" rx="8" fill="#f1f6fc" stroke="none"/>
+<text x="584" y="2204" font-size="16" fill="#18304b" font-weight="600" text-anchor="start">J + K  →  かな</text>
+<text x="584" y="2222" font-size="12" fill="#52667e" font-weight="400" text-anchor="start">全レイヤー  ·  80 ms</text>
+<rect x="36" y="2239" width="516" height="46" rx="8" fill="#f1f6fc" stroke="none"/>
+<text x="50" y="2259" font-size="16" fill="#18304b" font-weight="600" text-anchor="start">Q + W  →  Esc</text>
+<text x="50" y="2277" font-size="12" fill="#52667e" font-weight="400" text-anchor="start">基本レイヤーのみ  ·  50 ms</text>
+<rect x="570" y="2239" width="516" height="46" rx="8" fill="#f1f6fc" stroke="none"/>
+<text x="584" y="2259" font-size="16" fill="#18304b" font-weight="600" text-anchor="start">A + S  →  Tab</text>
+<text x="584" y="2277" font-size="12" fill="#52667e" font-weight="400" text-anchor="start">基本レイヤーのみ  ·  50 ms</text>
+<rect x="36" y="2294" width="516" height="46" rx="8" fill="#f1f6fc" stroke="none"/>
+<text x="50" y="2314" font-size="16" fill="#18304b" font-weight="600" text-anchor="start">Bksp + Symbol  →  BT 設定へ</text>
+<text x="50" y="2332" font-size="12" fill="#52667e" font-weight="400" text-anchor="start">基本レイヤーのみ  ·  50 ms</text>
+</g>
+</svg>
