@@ -7,55 +7,33 @@ macOS・US（ANSI）配列向けの Cornix LP 用 ZMK 設定です。
 
 ## キー配置
 
-元の40キーだけを割り当てます。下図はその40キーを左から右に並べたものです。
+元の40キーだけを割り当てます。**通常・Fn・数字・記号・BT の5レイヤーと、
+同時押しを1枚のSVGにまとめました。** 画像をクリックすると拡大できます。
+
+[![Cornix LPの40キー配列：通常、Fn、数字、記号、BT、同時押し](docs/keymap.svg)](docs/keymap.svg)
+
+- **キーの上段**：タップ時の入力、またはそのキーの動作。
+- **青い下段**：長押し時の動作。例：`Space / L1 Fn` はタップで空白、長押しでFn。
+- **灰色の下段**：動作の補足。BTの接続先選択・消去・通常へ戻るキーは、長押し不要です。
+- **▽**：下位の有効なレイヤーを使う（キーの無効化ではありません）。
+- **Symbol**：右親指の `RShift / L3 Symbol`。タップ側は右Shift、長押しで記号レイヤー。
+  右端の `/ / RShift` は、タップで `/`、長押しで右Shiftです。
+- **Alt = Option、Cmd = Command**。左Spaceだけ元の `retro-tap` を維持します。
+
+各レイヤーは元の40キーを4行×左右5列に揃えた模式図です。
 基板定義にある残り10位置（外周・追加親指位置・ノブ押し込み）は、
-全14レイヤーで `&none`（無効）です。ノブ回転にも機能を追加しません。
+全14レイヤーで `&none`（無効）です。ノブ回転も無効です。
 
-```text
-Q      W    E    R         T       Y     U          I      O    P
-A      S    D    F         G       H     J          K      L    ;
-Z      X    C    V         B       N     M          ,      .    '
-Shift  Alt  Cmd  Space/Fn  Ctrl    Bksp  Enter/Num  Symbol Alt  /-Shift
-```
+<details>
+<summary>保持している残り9レイヤー（トラックボール関連）を見る</summary>
 
-- **Space/Fn**: タップで Space、長押しで Layer 1。左親指だけ元の `retro-tap` を維持。
-- **Enter/Num**: タップで Enter、長押しで Layer 2。
-- **Symbol**: 元の `&lt_r 3 RSHFT`。タップは右 Shift、長押しで Layer 3。
-- **/-Shift**: タップは `/`、長押しは右 Shift。
-- **D+F**: 英数（LANG2）、**J+K**: かな（LANG1）。全レイヤーで物理位置を維持。
-- **Q+W**: Esc、**A+S**: Tab、**親指 Bksp+Symbol**: Layer 8。基本レイヤーのみ。
+元の Layer 4〜7・9〜13 のキー定義も保持しています。
+**Cornixにはトラックボールがないため、センサーによるジェスチャーや自動レイヤー切替は発生しません。**
+各レイヤーの説明を図の上部に記載しています。図中の「長押し」はそのレイヤーが有効な間の動作です。
 
-### Layer 1 — FUNCTION（Space 長押し）
+[![保持しているトラックボール関連9レイヤーのキー定義](docs/keymap-trackball.svg)](docs/keymap-trackball.svg)
 
-```text
-F1 F2 F3 F4 F5       F7   F8   F9   F10 F11
- -  -  -  - F6       ←    ↓    ↑    →   F12
- -  -  -  -  -       Home PgDn PgUp End Del
-```
-
-### Layer 2 — NUMBER（親指 Enter 長押し）
-
-```text
-1 2 3 4 5            + - * / =
-6 7 8 9 0            . , ( ) %
-```
-
-Layer 2 では親指 Bksp が Delete になります。
-
-### Layer 3 — SYMBOL（Symbol 長押し）
-
-```text
-! @ # $ %            ^ & * ~ `
-{ } ( ) =            - _ | \ +
-[ ] < > ?            / " : ; '
-```
-
-### Layer 8 — BT
-
-Q/W/E はミュート・音量下・音量上。A/S/D/F/G は BT0〜BT4。
-Z は現在のペアリング消去、X は全ペアリング消去です（元設定と同じ）。
-LCTRL と右 Alt の物理位置は `to 0`。入口は元と同じ親指 Bksp+Symbol のコンボです。
-外周位置に Unlock や通常レイヤーへ戻るキーを追加しません。
+</details>
 
 ## 元設定との一致範囲
 
@@ -100,10 +78,12 @@ ZMK と Cornix の基板モジュールは `config/west.yml` でコミットを�
 ## AI と設定を変更する
 
 1. 元のキー動作を変える場合は `tests/fixtures/KobitoKey.keymap` を編集する。
-   Cornix 固有位置を変える場合は `scripts/import_kobitokey.py` の位置対応・追加キーを編集する。
+   Cornix の位置対応を変える場合は `scripts/import_kobitokey.py` を編集する。
 2. `python3 scripts/import_kobitokey.py` で `config/cornix.keymap` を生成する。
-3. `python3 -m unittest discover -s tests -v` で参照元・物理位置との整合を確認する。
-4. Git に保存し、Actions のビルド結果を確認する。
+3. `python3 scripts/render_keymap.py` でREADME用のSVGを更新する。
+4. `python3 -m unittest discover -s tests -v` で参照元・物理位置との整合を確認する。
+   SVGの更新漏れは `python3 scripts/render_keymap.py --check` で確認できる。
+5. Git に保存し、Actions のビルド結果を確認する。
 
 参照 fixture はリポジトリ内に保存してあり、ビルド時に元リポジトリの main を取得しません。
 意図して元のコンボ・長押し仕様を変更した場合は、該当する検証もその意図に合わせて更新します。

@@ -1,0 +1,1526 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="3740" viewBox="0 0 1120 3740" role="img" aria-labelledby="title desc">
+<title id="title">保持しているトラックボール関連レイヤー</title>
+<desc id="desc">現在のキーマップから生成。上段はタップ、青い下段は長押し。透過は▽。元の40キーのみを図示。</desc>
+<g font-family="&#x27;Noto Sans CJK JP&#x27;,&#x27;Hiragino Kaku Gothic ProN&#x27;,&#x27;Yu Gothic&#x27;,sans-serif">
+<rect x="0" y="0" width="1120" height="3740" rx="0" fill="#f5f8fc" stroke="none"/>
+<text x="32" y="45" font-size="29" fill="#18304b" font-weight="700" text-anchor="start">保持しているトラックボール関連レイヤー</text>
+<text x="32" y="78" font-size="17" fill="#52667e" font-weight="400" text-anchor="start">上段：タップ / 動作　　青い下段：長押し　　▽：下位の有効なレイヤーを使う</text>
+<text x="32" y="106" font-size="16" fill="#52667e" font-weight="400" text-anchor="start">Cornix にトラックボールはありません。図は保持した定義で、センサー操作は発生しません。</text>
+<g id="layer-4">
+<rect x="16" y="124" width="1088" height="384" rx="12" fill="#fff" stroke="#d8e1ec"/>
+<rect x="32" y="144" width="5" height="32" rx="2" fill="#246bc4" stroke="none"/>
+<text x="49" y="168" font-size="25" fill="#18304b" font-weight="700" text-anchor="start">04  MOUSE</text>
+<text x="36" y="197" font-size="15" fill="#52667e" font-weight="400" text-anchor="start">元のマウス用定義を保持  ·  Cornix ではトラックボールによる自動発動なし</text>
+<g><title>&amp;trans</title>
+<rect x="36" y="216" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="253" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="216" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="253" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="216" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="253" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="216" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="253" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="216" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="253" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;menu_lt 5 Y</title>
+<rect x="612" y="216" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
+<text x="656" y="244" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">Y</text>
+<text x="656" y="263" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">L5 Gesture</text>
+</g>
+<g><title>&amp;mkp MB1</title>
+<rect x="708" y="216" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="752" y="253" font-size="16" fill="#18304b" font-weight="600" text-anchor="middle">左クリック</text>
+</g>
+<g><title>&amp;mkp MB3</title>
+<rect x="804" y="216" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="848" y="253" font-size="16" fill="#18304b" font-weight="600" text-anchor="middle">中クリック</text>
+</g>
+<g><title>&amp;mkp MB2</title>
+<rect x="900" y="216" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="944" y="253" font-size="16" fill="#18304b" font-weight="600" text-anchor="middle">右クリック</text>
+</g>
+<g><title>&amp;menu_lt 6 P</title>
+<rect x="996" y="216" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
+<text x="1040" y="244" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">P</text>
+<text x="1040" y="263" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">L6 Tab</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="282" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="319" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="282" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="319" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="282" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="319" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="282" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="319" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="282" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="319" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;menu_lt 7 H</title>
+<rect x="612" y="282" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
+<text x="656" y="310" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">H</text>
+<text x="656" y="329" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">L7 Desktop</text>
+</g>
+<g><title>&amp;mkp MB4</title>
+<rect x="708" y="282" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="752" y="319" font-size="16" fill="#18304b" font-weight="600" text-anchor="middle">ボタン4</text>
+</g>
+<g><title>&amp;dl 0 K</title>
+<rect x="804" y="282" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
+<text x="848" y="310" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">K</text>
+<text x="848" y="329" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">Drag lock</text>
+</g>
+<g><title>&amp;mkp MB5</title>
+<rect x="900" y="282" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="944" y="319" font-size="16" fill="#18304b" font-weight="600" text-anchor="middle">ボタン5</text>
+</g>
+<g><title>&amp;zoom_hold 9</title>
+<rect x="996" y="282" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
+<text x="1040" y="310" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">Zoom</text>
+<text x="1040" y="329" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">Cmd + L9</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="348" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="385" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="348" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="385" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="348" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="385" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;lt 11 V</title>
+<rect x="324" y="348" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
+<text x="368" y="376" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">V</text>
+<text x="368" y="395" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">L11 Prec</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="348" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="385" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="348" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="385" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="348" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="385" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="348" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="385" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="348" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="385" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;lt 12 APOS</title>
+<rect x="996" y="348" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
+<text x="1040" y="376" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">&#x27;</text>
+<text x="1040" y="395" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">L12 HScroll</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="414" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="451" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="414" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="451" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="414" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="451" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="414" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="451" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;to 0</title>
+<rect x="420" y="414" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="464" y="442" font-size="16" fill="#18304b" font-weight="600" text-anchor="middle">通常へ</text>
+<text x="464" y="461" font-size="12" fill="#52667e" font-weight="500" text-anchor="middle">Layer 0</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="414" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="451" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="414" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="451" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="414" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="451" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;to 0</title>
+<rect x="900" y="414" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="944" y="442" font-size="16" fill="#18304b" font-weight="600" text-anchor="middle">通常へ</text>
+<text x="944" y="461" font-size="12" fill="#52667e" font-weight="500" text-anchor="middle">Layer 0</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="414" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="451" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+</g>
+<g id="layer-5">
+<rect x="16" y="524" width="1088" height="384" rx="12" fill="#fff" stroke="#d8e1ec"/>
+<rect x="32" y="544" width="5" height="32" rx="2" fill="#246bc4" stroke="none"/>
+<text x="49" y="568" font-size="25" fill="#18304b" font-weight="700" text-anchor="start">05  GESTURE</text>
+<text x="36" y="597" font-size="15" fill="#52667e" font-weight="400" text-anchor="start">Y 長押しで入る  ·  トラックボールの移動によるジェスチャーは発生しない</text>
+<g><title>&amp;trans</title>
+<rect x="36" y="616" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="653" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="616" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="653" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="616" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="653" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="616" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="653" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="616" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="653" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;mo 5</title>
+<rect x="612" y="616" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
+<text x="656" y="644" font-size="14" fill="#18304b" font-weight="600" text-anchor="middle">L5 Gesture</text>
+<text x="656" y="663" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">押している間</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="616" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="653" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="616" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="653" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="616" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="653" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="616" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="653" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+</g>
+<g id="layer-6">
+<rect x="16" y="924" width="1088" height="384" rx="12" fill="#fff" stroke="#d8e1ec"/>
+<rect x="32" y="944" width="5" height="32" rx="2" fill="#246bc4" stroke="none"/>
+<text x="49" y="968" font-size="25" fill="#18304b" font-weight="700" text-anchor="start">06  TAB</text>
+<text x="36" y="997" font-size="15" fill="#52667e" font-weight="400" text-anchor="start">P 長押しで入る  ·  トラックボールの移動によるタブ操作は発生しない</text>
+<g><title>&amp;trans</title>
+<rect x="36" y="1016" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="1053" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="1016" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="1053" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="1016" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="1053" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="1016" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="1053" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="1016" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="1053" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="1016" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="1053" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="1016" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="1053" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="1016" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="1053" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="1016" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="1053" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;mo 6</title>
+<rect x="996" y="1016" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
+<text x="1040" y="1044" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">L6 Tab</text>
+<text x="1040" y="1063" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">押している間</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="1082" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="1119" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="1082" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="1119" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="1082" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="1119" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="1082" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="1119" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="1082" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="1119" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="1082" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="1119" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="1082" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="1119" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="1082" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="1119" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="1082" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="1119" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="1082" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="1119" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="1148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="1185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="1148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="1185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="1148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="1185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="1148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="1185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="1148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="1185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="1148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="1185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="1148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="1185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="1148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="1185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="1148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="1185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="1148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="1185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="1214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="1251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="1214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="1251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="1214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="1251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="1214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="1251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="1214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="1251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="1214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="1251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="1214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="1251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="1214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="1251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="1214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="1251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="1214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="1251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+</g>
+<g id="layer-7">
+<rect x="16" y="1324" width="1088" height="384" rx="12" fill="#fff" stroke="#d8e1ec"/>
+<rect x="32" y="1344" width="5" height="32" rx="2" fill="#246bc4" stroke="none"/>
+<text x="49" y="1368" font-size="25" fill="#18304b" font-weight="700" text-anchor="start">07  DESKTOP</text>
+<text x="36" y="1397" font-size="15" fill="#52667e" font-weight="400" text-anchor="start">H 長押しで入る  ·  トラックボールの移動による画面操作は発生しない</text>
+<g><title>&amp;trans</title>
+<rect x="36" y="1416" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="1453" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="1416" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="1453" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="1416" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="1453" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="1416" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="1453" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="1416" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="1453" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="1416" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="1453" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="1416" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="1453" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="1416" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="1453" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="1416" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="1453" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="1416" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="1453" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="1482" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="1519" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="1482" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="1519" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="1482" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="1519" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="1482" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="1519" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="1482" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="1519" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;mo 7</title>
+<rect x="612" y="1482" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
+<text x="656" y="1510" font-size="14" fill="#18304b" font-weight="600" text-anchor="middle">L7 Desktop</text>
+<text x="656" y="1529" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">押している間</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="1482" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="1519" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="1482" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="1519" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="1482" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="1519" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="1482" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="1519" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="1548" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="1585" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="1548" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="1585" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="1548" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="1585" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="1548" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="1585" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="1548" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="1585" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="1548" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="1585" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="1548" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="1585" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="1548" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="1585" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="1548" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="1585" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="1548" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="1585" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="1614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="1614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="1614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="1614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="1614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="1614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="1614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="1614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="1614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="1614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+</g>
+<g id="layer-9">
+<rect x="16" y="1724" width="1088" height="384" rx="12" fill="#fff" stroke="#d8e1ec"/>
+<rect x="32" y="1744" width="5" height="32" rx="2" fill="#246bc4" stroke="none"/>
+<text x="49" y="1768" font-size="25" fill="#18304b" font-weight="700" text-anchor="start">09  ZOOM</text>
+<text x="36" y="1797" font-size="15" fill="#52667e" font-weight="400" text-anchor="start">元の Cmd 保持 + Layer 9 の定義を保持  ·  トラックボール入力はなし</text>
+<g><title>&amp;trans</title>
+<rect x="36" y="1816" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="1853" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="1816" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="1853" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="1816" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="1853" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="1816" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="1853" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="1816" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="1853" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="1816" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="1853" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="1816" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="1853" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="1816" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="1853" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="1816" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="1853" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="1816" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="1853" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="1882" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="1919" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="1882" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="1919" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="1882" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="1919" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="1882" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="1919" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="1882" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="1919" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="1882" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="1919" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="1882" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="1919" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="1882" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="1919" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="1882" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="1919" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;zoom_hold 9</title>
+<rect x="996" y="1882" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
+<text x="1040" y="1910" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">Zoom</text>
+<text x="1040" y="1929" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">Cmd + L9</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="1948" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="1985" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="1948" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="1985" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="1948" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="1985" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="1948" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="1985" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="1948" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="1985" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="1948" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="1985" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="1948" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="1985" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="1948" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="1985" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="1948" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="1985" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="1948" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="1985" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="2014" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="2051" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="2014" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="2051" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="2014" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="2051" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="2014" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="2051" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="2014" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="2051" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="2014" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="2051" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="2014" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="2051" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="2014" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="2051" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="2014" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="2051" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="2014" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="2051" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+</g>
+<g id="layer-10">
+<rect x="16" y="2124" width="1088" height="384" rx="12" fill="#fff" stroke="#d8e1ec"/>
+<rect x="32" y="2144" width="5" height="32" rx="2" fill="#246bc4" stroke="none"/>
+<text x="49" y="2168" font-size="25" fill="#18304b" font-weight="700" text-anchor="start">10  DRAG</text>
+<text x="36" y="2197" font-size="15" fill="#52667e" font-weight="400" text-anchor="start">元のドラッグロック用定義を保持  ·  解除時はマウスボタンを先に離す</text>
+<g><title>&amp;trans</title>
+<rect x="36" y="2216" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="2253" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="2216" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="2253" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="2216" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="2253" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="2216" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="2253" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="2216" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="2253" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="2216" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="2253" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="2216" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="2253" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="2216" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="2253" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="2216" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="2253" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="2216" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="2253" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="2282" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="2319" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="2282" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="2319" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="2282" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="2319" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="2282" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="2319" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="2282" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="2319" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="2282" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="2319" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="2282" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="2319" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;drag_off</title>
+<rect x="804" y="2282" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="848" y="2319" font-size="16" fill="#18304b" font-weight="600" text-anchor="middle">Drag解除</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="2282" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="2319" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="2282" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="2319" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="2348" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="2385" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="2348" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="2385" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="2348" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="2385" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="2348" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="2385" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="2348" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="2385" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="2348" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="2385" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="2348" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="2385" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="2348" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="2385" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="2348" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="2385" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="2348" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="2385" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="2414" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="2451" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="2414" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="2451" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="2414" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="2451" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="2414" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="2451" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;drag_cancel</title>
+<rect x="420" y="2414" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="464" y="2442" font-size="16" fill="#18304b" font-weight="600" text-anchor="middle">Drag解除</text>
+<text x="464" y="2461" font-size="12" fill="#52667e" font-weight="500" text-anchor="middle">通常へ戻る</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="2414" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="2451" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="2414" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="2451" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="2414" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="2451" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;drag_cancel</title>
+<rect x="900" y="2414" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="944" y="2442" font-size="16" fill="#18304b" font-weight="600" text-anchor="middle">Drag解除</text>
+<text x="944" y="2461" font-size="12" fill="#52667e" font-weight="500" text-anchor="middle">通常へ戻る</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="2414" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="2451" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+</g>
+<g id="layer-11">
+<rect x="16" y="2524" width="1088" height="384" rx="12" fill="#fff" stroke="#d8e1ec"/>
+<rect x="32" y="2544" width="5" height="32" rx="2" fill="#246bc4" stroke="none"/>
+<text x="49" y="2568" font-size="25" fill="#18304b" font-weight="700" text-anchor="start">11  PRECISION</text>
+<text x="36" y="2597" font-size="15" fill="#52667e" font-weight="400" text-anchor="start">全キー透過  ·  元の精密化はトラックボール用のため Cornix では動作しない</text>
+<g><title>&amp;trans</title>
+<rect x="36" y="2616" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="2653" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="2616" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="2653" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="2616" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="2653" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="2616" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="2653" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="2616" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="2653" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="2616" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="2653" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="2616" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="2653" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="2616" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="2653" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="2616" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="2653" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="2616" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="2653" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="2682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="2719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="2682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="2719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="2682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="2719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="2682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="2719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="2682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="2719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="2682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="2719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="2682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="2719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="2682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="2719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="2682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="2719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="2682" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="2719" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="2748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="2785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="2748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="2785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="2748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="2785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="2748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="2785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="2748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="2785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="2748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="2785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="2748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="2785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="2748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="2785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="2748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="2785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="2748" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="2785" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="2814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="2851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="2814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="2851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="2814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="2851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="2814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="2851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="2814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="2851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="2814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="2851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="2814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="2851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="2814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="2851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="2814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="2851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="2814" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="2851" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+</g>
+<g id="layer-12">
+<rect x="16" y="2924" width="1088" height="384" rx="12" fill="#fff" stroke="#d8e1ec"/>
+<rect x="32" y="2944" width="5" height="32" rx="2" fill="#246bc4" stroke="none"/>
+<text x="49" y="2968" font-size="25" fill="#18304b" font-weight="700" text-anchor="start">12  HSCROLL</text>
+<text x="36" y="2997" font-size="15" fill="#52667e" font-weight="400" text-anchor="start">全キー透過  ·  元の横軸固定はトラックボール用のため Cornix では動作しない</text>
+<g><title>&amp;trans</title>
+<rect x="36" y="3016" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="3053" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="3016" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="3053" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="3016" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="3053" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="3016" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="3053" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="3016" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="3053" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="3016" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="3053" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="3016" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="3053" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="3016" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="3053" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="3016" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="3053" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="3016" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="3053" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="3082" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="3119" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="3082" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="3119" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="3082" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="3119" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="3082" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="3119" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="3082" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="3119" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="3082" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="3119" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="3082" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="3119" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="3082" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="3119" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="3082" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="3119" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="3082" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="3119" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="3148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="3185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="3148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="3185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="3148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="3185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="3148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="3185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="3148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="3185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="3148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="3185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="3148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="3185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="3148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="3185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="3148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="3185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="3148" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="3185" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="3214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="3251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="3214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="3251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="3214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="3251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="3214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="3251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="3214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="3251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="3214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="3251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="3214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="3251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="3214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="3251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="3214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="3251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="3214" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="3251" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+</g>
+<g id="layer-13">
+<rect x="16" y="3324" width="1088" height="384" rx="12" fill="#fff" stroke="#d8e1ec"/>
+<rect x="32" y="3344" width="5" height="32" rx="2" fill="#246bc4" stroke="none"/>
+<text x="49" y="3368" font-size="25" fill="#18304b" font-weight="700" text-anchor="start">13  SCROLL MENU</text>
+<text x="36" y="3397" font-size="15" fill="#52667e" font-weight="400" text-anchor="start">元の機能入口を保持  ·  左トラックボールによる自動発動なし</text>
+<g><title>&amp;trans</title>
+<rect x="36" y="3416" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="3453" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="3416" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="3453" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="3416" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="3453" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="3416" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="3453" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="3416" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="3453" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;menu_lt 5 Y</title>
+<rect x="612" y="3416" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
+<text x="656" y="3444" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">Y</text>
+<text x="656" y="3463" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">L5 Gesture</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="3416" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="3453" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="3416" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="3453" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="3416" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="3453" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;menu_lt 6 P</title>
+<rect x="996" y="3416" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
+<text x="1040" y="3444" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">P</text>
+<text x="1040" y="3463" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">L6 Tab</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="3482" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="3519" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="3482" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="3519" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="3482" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="3519" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="3482" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="3519" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="3482" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="3519" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;menu_lt 7 H</title>
+<rect x="612" y="3482" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
+<text x="656" y="3510" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">H</text>
+<text x="656" y="3529" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">L7 Desktop</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="3482" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="3519" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="3482" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="3519" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="3482" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="3519" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;menu_zoom 9 SEMI</title>
+<rect x="996" y="3482" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
+<text x="1040" y="3510" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">;</text>
+<text x="1040" y="3529" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">Zoom</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="3548" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="3585" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="3548" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="3585" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="3548" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="3585" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="3548" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="3585" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="420" y="3548" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="464" y="3585" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="3548" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="3585" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="3548" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="3585" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="3548" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="3585" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="900" y="3548" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="944" y="3585" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;menu_lt 12 APOS</title>
+<rect x="996" y="3548" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
+<text x="1040" y="3576" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">&#x27;</text>
+<text x="1040" y="3595" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">L12 HScroll</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="36" y="3614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="80" y="3651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="132" y="3614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="176" y="3651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="228" y="3614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="272" y="3651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="324" y="3614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="368" y="3651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;to 0</title>
+<rect x="420" y="3614" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="464" y="3642" font-size="16" fill="#18304b" font-weight="600" text-anchor="middle">通常へ</text>
+<text x="464" y="3661" font-size="12" fill="#52667e" font-weight="500" text-anchor="middle">Layer 0</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="612" y="3614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="656" y="3651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="708" y="3614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="752" y="3651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="804" y="3614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="848" y="3651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+<g><title>&amp;to 0</title>
+<rect x="900" y="3614" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="944" y="3642" font-size="16" fill="#18304b" font-weight="600" text-anchor="middle">通常へ</text>
+<text x="944" y="3661" font-size="12" fill="#52667e" font-weight="500" text-anchor="middle">Layer 0</text>
+</g>
+<g><title>&amp;trans</title>
+<rect x="996" y="3614" width="88" height="58" rx="9" fill="#f0f3f7" stroke="#d2dce8"/>
+<text x="1040" y="3651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
+</g>
+</g>
+</g>
+</svg>
