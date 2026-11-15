@@ -1,0 +1,278 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1530" height="856" viewBox="0 0 1530 856" role="img" aria-labelledby="title desc">
+<title id="title">Cornix LP — KobitoKey / 40 keys + 2 knobs</title>
+<desc id="desc">Cornixのキー座標と回転を使用。左右全4段の最外列は無効。内側5列に40キーを割り当て、ノブは標準の音量・スクロール・押し込み動作。</desc>
+<g font-family="&#x27;Noto Sans CJK JP&#x27;,&#x27;Hiragino Kaku Gothic ProN&#x27;,&#x27;Yu Gothic&#x27;,sans-serif">
+<rect x="0" y="0" width="1530" height="856" rx="0" fill="#f5f8fc" stroke="none"/>
+<text x="32" y="45" font-size="29" fill="#18304b" font-weight="700" text-anchor="start">Cornix LP — KobitoKey / 40 keys + 2 knobs</text>
+<text x="32" y="78" font-size="17" fill="#52667e" font-weight="400" text-anchor="start">上段：タップ / 動作　　青い下段：長押し　　▽：下位の有効なレイヤーを使う</text>
+<text x="32" y="106" font-size="16" fill="#52667e" font-weight="400" text-anchor="start">Cornix の物理配列。全4段で最外列は無効・内側5列を使用。左右ノブは標準の音量・スクロール操作。</text>
+<g id="layer-0">
+<rect x="16" y="124" width="1498" height="700" rx="12" fill="#fff" stroke="#d8e1ec"/>
+<rect x="32" y="144" width="5" height="32" rx="2" fill="#246bc4" stroke="none"/>
+<text x="49" y="168" font-size="25" fill="#18304b" font-weight="700" text-anchor="start">00  DEFAULT</text>
+<text x="36" y="197" font-size="15" fill="#52667e" font-weight="400" text-anchor="start">通常入力  ·  青い下段は長押しの動作  ·  Alt = Option / Cmd = Command</text>
+<g transform="translate(40 230)">
+<g data-position="0" transform="rotate(0.0 0 0)">
+<title>Position 0: &amp;none</title>
+<rect x="4" y="54" width="92" height="92" rx="10" fill="#e2e7ee" stroke="#c4d0df"/>
+<text x="50.0" y="109.0" font-size="21" fill="#687a90" font-weight="600" text-anchor="middle">無効</text>
+</g>
+<g data-position="1" transform="rotate(0.0 0 0)">
+<title>Position 1: &amp;kp Q</title>
+<rect x="104" y="54" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="150.0" y="109.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">Q</text>
+</g>
+<g data-position="2" transform="rotate(0.0 0 0)">
+<title>Position 2: &amp;kp W</title>
+<rect x="204" y="29" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="250.0" y="84.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">W</text>
+</g>
+<g data-position="3" transform="rotate(0.0 0 0)">
+<title>Position 3: &amp;kp E</title>
+<rect x="304" y="4" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="350.0" y="59.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">E</text>
+</g>
+<g data-position="4" transform="rotate(0.0 0 0)">
+<title>Position 4: &amp;kp R</title>
+<rect x="404" y="29" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="450.0" y="84.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">R</text>
+</g>
+<g data-position="5" transform="rotate(0.0 0 0)">
+<title>Position 5: &amp;kp T</title>
+<rect x="504" y="54" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="550.0" y="109.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">T</text>
+</g>
+<g data-position="6" transform="rotate(0.0 0 0)">
+<title>Position 6: &amp;kp Y</title>
+<rect x="854" y="54" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="900.0" y="109.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">Y</text>
+</g>
+<g data-position="7" transform="rotate(0.0 0 0)">
+<title>Position 7: &amp;kp U</title>
+<rect x="954" y="34" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="1000.0" y="89.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">U</text>
+</g>
+<g data-position="8" transform="rotate(0.0 0 0)">
+<title>Position 8: &amp;kp I</title>
+<rect x="1054" y="4" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="1100.0" y="59.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">I</text>
+</g>
+<g data-position="9" transform="rotate(0.0 0 0)">
+<title>Position 9: &amp;kp O</title>
+<rect x="1154" y="37" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="1200.0" y="92.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">O</text>
+</g>
+<g data-position="10" transform="rotate(0.0 0 0)">
+<title>Position 10: &amp;kp P</title>
+<rect x="1254" y="54" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="1300.0" y="109.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">P</text>
+</g>
+<g data-position="11" transform="rotate(0.0 0 0)">
+<title>Position 11: &amp;none</title>
+<rect x="1354" y="54" width="92" height="92" rx="10" fill="#e2e7ee" stroke="#c4d0df"/>
+<text x="1400.0" y="109.0" font-size="21" fill="#687a90" font-weight="600" text-anchor="middle">無効</text>
+</g>
+<g data-position="12" transform="rotate(0.0 0 0)">
+<title>Position 12: &amp;none</title>
+<rect x="4" y="154" width="92" height="92" rx="10" fill="#e2e7ee" stroke="#c4d0df"/>
+<text x="50.0" y="209.0" font-size="21" fill="#687a90" font-weight="600" text-anchor="middle">無効</text>
+</g>
+<g data-position="13" transform="rotate(0.0 0 0)">
+<title>Position 13: &amp;kp A</title>
+<rect x="104" y="154" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="150.0" y="209.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">A</text>
+</g>
+<g data-position="14" transform="rotate(0.0 0 0)">
+<title>Position 14: &amp;kp S</title>
+<rect x="204" y="129" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="250.0" y="184.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">S</text>
+</g>
+<g data-position="15" transform="rotate(0.0 0 0)">
+<title>Position 15: &amp;kp D</title>
+<rect x="304" y="104" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="350.0" y="159.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">D</text>
+</g>
+<g data-position="16" transform="rotate(0.0 0 0)">
+<title>Position 16: &amp;kp F</title>
+<rect x="404" y="129" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="450.0" y="184.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">F</text>
+</g>
+<g data-position="17" transform="rotate(0.0 0 0)">
+<title>Position 17: &amp;kp G</title>
+<rect x="504" y="154" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="550.0" y="209.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">G</text>
+</g>
+<g data-position="18" transform="rotate(0.0 0 0)">
+<title>Position 18: &amp;kp H</title>
+<rect x="854" y="154" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="900.0" y="209.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">H</text>
+</g>
+<g data-position="19" transform="rotate(0.0 0 0)">
+<title>Position 19: &amp;kp J</title>
+<rect x="954" y="134" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="1000.0" y="189.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">J</text>
+</g>
+<g data-position="20" transform="rotate(0.0 0 0)">
+<title>Position 20: &amp;kp K</title>
+<rect x="1054" y="104" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="1100.0" y="159.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">K</text>
+</g>
+<g data-position="21" transform="rotate(0.0 0 0)">
+<title>Position 21: &amp;kp L</title>
+<rect x="1154" y="137" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="1200.0" y="192.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">L</text>
+</g>
+<g data-position="22" transform="rotate(0.0 0 0)">
+<title>Position 22: &amp;kp SEMI</title>
+<rect x="1254" y="154" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="1300.0" y="209.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">;</text>
+</g>
+<g data-position="23" transform="rotate(0.0 0 0)">
+<title>Position 23: &amp;none</title>
+<rect x="1354" y="154" width="92" height="92" rx="10" fill="#e2e7ee" stroke="#c4d0df"/>
+<text x="1400.0" y="209.0" font-size="21" fill="#687a90" font-weight="600" text-anchor="middle">無効</text>
+</g>
+<g data-position="24" transform="rotate(0.0 0 0)">
+<title>Position 24: &amp;none</title>
+<rect x="4" y="259" width="92" height="92" rx="10" fill="#e2e7ee" stroke="#c4d0df"/>
+<text x="50.0" y="314.0" font-size="21" fill="#687a90" font-weight="600" text-anchor="middle">無効</text>
+</g>
+<g data-position="25" transform="rotate(0.0 0 0)">
+<title>Position 25: &amp;kp Z</title>
+<rect x="104" y="259" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="150.0" y="314.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">Z</text>
+</g>
+<g data-position="26" transform="rotate(0.0 0 0)">
+<title>Position 26: &amp;kp X</title>
+<rect x="204" y="229" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="250.0" y="284.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">X</text>
+</g>
+<g data-position="27" transform="rotate(0.0 0 0)">
+<title>Position 27: &amp;kp C</title>
+<rect x="304" y="204" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="350.0" y="259.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">C</text>
+</g>
+<g data-position="28" transform="rotate(0.0 0 0)">
+<title>Position 28: &amp;kp V</title>
+<rect x="404" y="229" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="450.0" y="284.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">V</text>
+</g>
+<g data-position="29" transform="rotate(0.0 0 0)">
+<title>Position 29: &amp;kp B</title>
+<rect x="504" y="259" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="550.0" y="314.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">B</text>
+</g>
+<g data-position="30" transform="rotate(0.0 0 0)">
+<title>Position 30: &amp;kp C_MUTE</title>
+<circle cx="650.0" cy="250.0" r="40" fill="#fff" stroke="#bdc9d8" stroke-width="2"/>
+<text x="650.0" y="247.0" font-size="23" fill="#18304b" font-weight="600" text-anchor="middle">Mute</text>
+<text x="650.0" y="274.0" font-size="13" fill="#52667e" font-weight="500" text-anchor="middle">押し込み</text>
+</g>
+<g data-position="31" transform="rotate(0.0 0 0)">
+<title>Position 31: &amp;mkp MB3</title>
+<circle cx="800.0" cy="250.0" r="40" fill="#fff" stroke="#bdc9d8" stroke-width="2"/>
+<text x="800.0" y="247.0" font-size="15" fill="#18304b" font-weight="600" text-anchor="middle">中クリック</text>
+<text x="800.0" y="274.0" font-size="13" fill="#52667e" font-weight="500" text-anchor="middle">押し込み</text>
+</g>
+<g data-position="32" transform="rotate(0.0 0 0)">
+<title>Position 32: &amp;kp N</title>
+<rect x="854" y="259" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="900.0" y="314.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">N</text>
+</g>
+<g data-position="33" transform="rotate(0.0 0 0)">
+<title>Position 33: &amp;kp M</title>
+<rect x="954" y="234" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="1000.0" y="289.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">M</text>
+</g>
+<g data-position="34" transform="rotate(0.0 0 0)">
+<title>Position 34: &amp;kp COMMA</title>
+<rect x="1054" y="204" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="1100.0" y="259.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">,</text>
+</g>
+<g data-position="35" transform="rotate(0.0 0 0)">
+<title>Position 35: &amp;kp DOT</title>
+<rect x="1154" y="237" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="1200.0" y="292.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">.</text>
+</g>
+<g data-position="36" transform="rotate(0.0 0 0)">
+<title>Position 36: &amp;kp APOS</title>
+<rect x="1254" y="259" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="1300.0" y="314.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">&#x27;</text>
+</g>
+<g data-position="37" transform="rotate(0.0 0 0)">
+<title>Position 37: &amp;none</title>
+<rect x="1354" y="259" width="92" height="92" rx="10" fill="#e2e7ee" stroke="#c4d0df"/>
+<text x="1400.0" y="314.0" font-size="21" fill="#687a90" font-weight="600" text-anchor="middle">無効</text>
+</g>
+<g data-position="38" transform="rotate(0.0 0 0)">
+<title>Position 38: &amp;none</title>
+<rect x="4" y="359" width="92" height="92" rx="10" fill="#e2e7ee" stroke="#c4d0df"/>
+<text x="50.0" y="414.0" font-size="21" fill="#687a90" font-weight="600" text-anchor="middle">無効</text>
+</g>
+<g data-position="39" transform="rotate(0.0 0 0)">
+<title>Position 39: &amp;kp LSHFT</title>
+<rect x="104" y="359" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="150.0" y="414.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">Shift</text>
+</g>
+<g data-position="40" transform="rotate(0.0 0 0)">
+<title>Position 40: &amp;kp LALT</title>
+<rect x="204" y="334" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="250.0" y="389.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">Option</text>
+</g>
+<g data-position="41" transform="rotate(0.0 0 0)">
+<title>Position 41: &amp;kp LCMD</title>
+<rect x="354" y="367" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="400.0" y="422.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">Cmd</text>
+</g>
+<g data-position="42" transform="rotate(11.93 500 475)">
+<title>Position 42: &amp;lt_l 1 SPACE</title>
+<rect x="454" y="374" width="92" height="92" rx="10" fill="#eaf3ff" stroke="#c4d0df"/>
+<text x="500.0" y="417.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">Space</text>
+<text x="500.0" y="444.0" font-size="13" fill="#195eb4" font-weight="500" text-anchor="middle">L1 Fn</text>
+</g>
+<g data-position="43" transform="rotate(23.0 500 475)">
+<title>Position 43: &amp;kp LCTRL</title>
+<rect x="554" y="369" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="600.0" y="424.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">Ctrl</text>
+</g>
+<g data-position="44" transform="rotate(-23.0 500 475)">
+<title>Position 44: &amp;kp BSPC</title>
+<rect x="768" y="542" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="814.0" y="597.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">Bksp</text>
+</g>
+<g data-position="45" transform="rotate(-11.93 925 475)">
+<title>Position 45: &amp;lt_r 2 ENTER</title>
+<rect x="904" y="379" width="92" height="92" rx="10" fill="#eaf3ff" stroke="#c4d0df"/>
+<text x="950.0" y="422.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">Enter</text>
+<text x="950.0" y="449.0" font-size="13" fill="#195eb4" font-weight="500" text-anchor="middle">L2 Num</text>
+</g>
+<g data-position="46" transform="rotate(0.0 0 0)">
+<title>Position 46: &amp;lt_r 3 RSHFT</title>
+<rect x="1004" y="367" width="92" height="92" rx="10" fill="#eaf3ff" stroke="#c4d0df"/>
+<text x="1050.0" y="410.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">RShift</text>
+<text x="1050.0" y="437.0" font-size="13" fill="#195eb4" font-weight="500" text-anchor="middle">L3 Symbol</text>
+</g>
+<g data-position="47" transform="rotate(0.0 0 0)">
+<title>Position 47: &amp;kp RALT</title>
+<rect x="1154" y="342" width="92" height="92" rx="10" fill="#fff" stroke="#c4d0df"/>
+<text x="1200.0" y="397.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">Option</text>
+</g>
+<g data-position="48" transform="rotate(0.0 0 0)">
+<title>Position 48: &amp;mt RSHFT SLASH</title>
+<rect x="1254" y="359" width="92" height="92" rx="10" fill="#eaf3ff" stroke="#c4d0df"/>
+<text x="1300.0" y="402.0" font-size="25" fill="#18304b" font-weight="600" text-anchor="middle">/</text>
+<text x="1300.0" y="429.0" font-size="13" fill="#195eb4" font-weight="500" text-anchor="middle">RShift</text>
+</g>
+<g data-position="49" transform="rotate(0.0 0 0)">
+<title>Position 49: &amp;none</title>
+<rect x="1354" y="359" width="92" height="92" rx="10" fill="#e2e7ee" stroke="#c4d0df"/>
+<text x="1400.0" y="414.0" font-size="21" fill="#687a90" font-weight="600" text-anchor="middle">無効</text>
+</g>
+</g>
+<text x="340" y="774" font-size="14" fill="#687a90" font-weight="600" text-anchor="middle">LEFT</text>
+<text x="1140" y="774" font-size="14" fill="#687a90" font-weight="600" text-anchor="middle">RIGHT</text>
+<text x="340" y="803" font-size="15" fill="#52667e" font-weight="400" text-anchor="middle">ノブ：時計回り＝音量＋ / 逆回り＝音量− / 押込＝Mute</text>
+<text x="1140" y="803" font-size="15" fill="#52667e" font-weight="400" text-anchor="middle">ノブ：時計回り＝下スクロール / 逆回り＝上 / 押込＝中クリック</text>
+</g>
+</g>
+</svg>

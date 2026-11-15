@@ -1,20 +1,22 @@
 #!/usr/bin/env python3
 """Draw the current Cornix bindings as self-contained, GitHub-friendly SVGs."""
 import argparse
+import json
 import re
 from html import escape
 from pathlib import Path
 
-from import_kobitokey import POSITIONS, bindings
+from import_kobitokey import bindings
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "config/cornix.keymap"
-WIDTH = 1120
-CARD_HEIGHT = 400
+WIDTH = 1530
+CARD_HEIGHT = 716
+LAYOUT = ROOT / "docs/cornix-layout.json"
 FONT = "'Noto Sans CJK JP','Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif"
 KEYS = {
-    "LSHFT": "LShift", "RSHFT": "RShift", "LALT": "LAlt", "RALT": "RAlt",
-    "LCMD": "LCmd", "LCTRL": "LCtrl", "SPACE": "Space", "ENTER": "Enter",
+    "LSHFT": "Shift", "RSHFT": "RShift", "LALT": "Option", "RALT": "Option",
+    "LCMD": "Cmd", "LCTRL": "Ctrl", "SPACE": "Space", "ENTER": "Enter",
     "BSPC": "Bksp", "ESC": "Esc", "TAB": "Tab", "DEL": "Delete",
     "SEMI": ";", "APOS": "'", "COMMA": ",", "DOT": ".", "SLASH": "/",
     "BSLH": "\\", "PLUS": "+", "MINUS": "-", "ASTRK": "*", "EQUAL": "=",
@@ -49,12 +51,16 @@ def label(binding):
     op = p[0]
     if op == "&trans":
         return "▽", ""
+    if op == "&none":
+        return "無効", ""
     if op == "&kp":
         return key(p[1]), ""
     if op in ("&lt_l", "&lt_r"):
         return key(p[2]), SHORT_LAYERS[int(p[1])]
     if op == "&mt":
         return key(p[2]), key(p[1])
+    if op == "&mkp" and p[1] == "MB3":
+        return "中クリック", ""
     if op == "&to":
         return "通常へ", "Layer " + p[1]
     if op == "&bt":
@@ -77,39 +83,54 @@ def rect(x, y, w, h, fill, stroke="none", radius=12):
             f'fill="{fill}" stroke="{stroke}"/>')
 
 
-def layer_card(index, name, keys, y):
-    parts = [f'<g id="layer-{index}">', rect(16, y, 1088, 384, "#fff", "#d8e1ec"),
+def layer_card(index, name, keys, geometry, y):
+    parts = [f'<g id="layer-{index}">', rect(16, y, WIDTH - 32, CARD_HEIGHT - 16, "#fff", "#d8e1ec"),
              rect(32, y + 20, 5, 32, "#246bc4", radius=2),
              text(49, y + 44, f"{index:02d}  {name}", 25, weight=700),
              text(36, y + 73, SUBTITLES[index], 15, "#52667e")]
-    active = [keys[p] for p in POSITIONS]
-    for i, binding in enumerate(active):
-        row, col = divmod(i, 10)
-        side, column = divmod(col, 5)
-        x, ky = 36 + side * 576 + column * 96, y + 92 + row * 66
+    parts.append(f'<g transform="translate(40 {y + 106})">')
+    for physical in geometry:
+        i = physical["index"]
+        binding = keys[i]
+        x, ky = physical["x"], physical["y"]
+        w, h = physical["w"], physical["h"]
         tap, hold = label(binding)
         transparent = binding == "&trans"
+        disabled = binding == "&none"
         is_hold = binding.split()[0] in ("&lt_l", "&lt_r", "&mt")
-        fill = "#f0f3f7" if transparent else "#eaf3ff" if is_hold else "#fff"
-        parts.extend([f'<g><title>{escape(binding)}</title>',
-                      rect(x, ky, 88, 58, fill, "#d2dce8", 9)])
+        fill = "#e2e7ee" if disabled else "#f0f3f7" if transparent else "#eaf3ff" if is_hold else "#fff"
+        rotation = physical["rotation"]
+        parts.append(f'<g data-position="{i}" transform="rotate({rotation} {physical["rx"]} {physical["ry"]})">')
+        parts.append(f'<title>Position {i}: {escape(binding)}</title>')
+        if physical["encoder"]:
+            parts.append(f'<circle cx="{x + w / 2}" cy="{ky + h / 2}" r="40" fill="{fill}" stroke="#bdc9d8" stroke-width="2"/>')
+            hold = "押し込み"
+        else:
+            parts.append(rect(x + 4, ky + 4, w - 8, h - 8, fill, "#c4d0df", 10))
         # Japanese labels need more room than single Latin key legends.
-        size = 16 if any(ord(c) > 127 for c in tap) and len(tap) > 2 else 22
+        size = 21 if any(ord(c) > 127 for c in tap) else 25
         if len(tap) > 8:
-            size = 14
-        parts.append(text(x + 44, ky + (28 if hold else 37), tap, size,
-                          "#8796a8" if transparent else "#18304b", 600, "middle"))
+            size = 17
+        if physical["encoder"]:
+            size = 15 if any(ord(c) > 127 for c in tap) else 23
+        parts.append(text(x + w / 2, ky + (h / 2 - 3 if hold else h / 2 + 9), tap, size,
+                          "#687a90" if disabled else "#8796a8" if transparent else "#18304b", 600, "middle"))
         if hold:
-            parts.append(text(x + 44, ky + 47, hold, 12,
+            parts.append(text(x + w / 2, ky + h / 2 + 24, hold, 13,
                               "#195eb4" if is_hold else "#52667e", 500, "middle"))
         parts.append("</g>")
+    parts.append("</g>")
+    parts.extend([text(340, y + 650, "LEFT", 14, "#687a90", 600, "middle"),
+                  text(1140, y + 650, "RIGHT", 14, "#687a90", 600, "middle"),
+                  text(340, y + 679, "ノブ：時計回り＝音量＋ / 逆回り＝音量− / 押込＝Mute", 15, "#52667e", anchor="middle"),
+                  text(1140, y + 679, "ノブ：時計回り＝下スクロール / 逆回り＝上 / 押込＝中クリック", 15, "#52667e", anchor="middle")])
     parts.append("</g>")
     return parts
 
 
 def combo_card(source, base, y):
     combos = re.findall(r'\bcombo_\w+\s*\{(.*?)\n\s*};', source, re.S)
-    parts = [rect(16, y, 1088, 238, "#fff", "#d8e1ec"),
+    parts = [rect(16, y, WIDTH - 32, 238, "#fff", "#d8e1ec"),
              text(36, y + 39, "同時押し / COMBOS", 24, weight=700)]
     for i, body in enumerate(combos):
         positions = [int(p) for p in re.search(r'key-positions\s*=\s*<([^>]+)>', body)[1].split()]
@@ -121,17 +142,17 @@ def combo_card(source, base, y):
         result = "BT 設定へ" if output == "&to 4" else label(output)[0]
         timeout = re.search(r'timeout-ms\s*=\s*<(\d+)>', body)[1]
         scope = "基本レイヤーのみ" if re.search(r'\blayers\s*=', body) else "全レイヤー"
-        x, cy = 36 + (i % 2) * 534, y + 60 + (i // 2) * 55
-        parts.extend([rect(x, cy, 516, 46, "#f1f6fc", radius=8),
+        x, cy = 36 + (i % 2) * 734, y + 60 + (i // 2) * 55
+        parts.extend([rect(x, cy, 714, 46, "#f1f6fc", radius=8),
                       text(x + 14, cy + 20, " + ".join(names) + "  →  " + result, 16, weight=600),
                       text(x + 14, cy + 38, f"{scope}  ·  {timeout} ms", 12, "#52667e")])
     return parts
 
 
-def render(source, layers):
-    height = 140 + len(layers) * CARD_HEIGHT + 254
-    title = "Cornix LP — KobitoKey / 40 keys"
-    desc = "現在のキーマップから生成。上段はタップ、青い下段は長押し。透過は▽。元の40キーのみを図示。"
+def render(source, layers, geometry, indices, combos=True):
+    height = 140 + len(indices) * CARD_HEIGHT + (254 if combos else 0)
+    title = "Cornix LP — KobitoKey / 40 keys + 2 knobs"
+    desc = "Cornixのキー座標と回転を使用。左右全4段の最外列は無効。内側5列に40キーを割り当て、ノブは標準の音量・スクロール・押し込み動作。"
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{height}" '
              f'viewBox="0 0 {WIDTH} {height}" role="img" aria-labelledby="title desc">',
              f'<title id="title">{escape(title)}</title>', f'<desc id="desc">{escape(desc)}</desc>',
@@ -139,11 +160,13 @@ def render(source, layers):
              rect(0, 0, WIDTH, height, "#f5f8fc", radius=0),
              text(32, 45, title, 29, weight=700),
              text(32, 78, "上段：タップ / 動作　　青い下段：長押し　　▽：下位の有効なレイヤーを使う", 17, "#52667e"),
-             text(32, 106, "40キー・5レイヤー。Y / H / P は通常の文字キー。外周・追加位置・ノブは無効。",
+             text(32, 106, "Cornix の物理配列。全4段で最外列は無効・内側5列を使用。左右ノブは標準の音量・スクロール操作。",
                   16, "#52667e")]
-    for index, (name, keys) in enumerate(layers):
-        parts.extend(layer_card(index, name, keys, 124 + index * CARD_HEIGHT))
-    parts.extend(combo_card(source, layers[0][1], 124 + len(layers) * CARD_HEIGHT))
+    for n, index in enumerate(indices):
+        name, keys = layers[index]
+        parts.extend(layer_card(index, name, keys, geometry, 124 + n * CARD_HEIGHT))
+    if combos:
+        parts.extend(combo_card(source, layers[0][1], 124 + len(indices) * CARD_HEIGHT))
     parts.extend(["</g>", "</svg>", ""])
     return "\n".join(parts)
 
@@ -154,8 +177,12 @@ def generate():
         r'display-name\s*=\s*"([^"]+)";\s*bindings\s*=\s*<(.*?)>;', source, re.S)]
     if len(layers) != 5 or any(len(keys) != 50 for _, keys in layers):
         raise ValueError("Expected 5 Cornix layers with 50 hardware positions")
+    geometry = json.loads(LAYOUT.read_text())["keys"]
+    if [key["index"] for key in geometry] != list(range(50)):
+        raise ValueError("Expected Cornix physical positions 0..49")
     return {
-        ROOT / "docs/keymap.svg": render(source, layers),
+        ROOT / "docs/keymap.svg": render(source, layers, geometry, range(5)),
+        ROOT / "docs/keymap-default.svg": render(source, layers, geometry, (0,), combos=False),
     }
 
 

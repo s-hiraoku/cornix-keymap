@@ -25,7 +25,7 @@ class SourceFidelity(unittest.TestCase):
         self.assertEqual(len(new), 5)
         # Independently describe the physical character rows and bottom row.
         positions = [*range(1, 11), *range(13, 23), *range(25, 30), *range(32, 37),
-                     38, 39, 40, 42, 43, 44, 45, 46, 48, 49]
+                     *range(39, 49)]
         self.assertEqual(len(set(positions)), 40)
         for layer, source_layer in enumerate((0, 1, 2, 3, 8)):
             self.assertEqual(len(old[source_layer]), 40)
@@ -47,7 +47,14 @@ class SourceFidelity(unittest.TestCase):
         self.assertEqual(base[42], "&lt_l 1 SPACE")
         self.assertEqual(base[43], "&kp LCTRL")
         self.assertEqual(layer_bindings(TARGET)[4][43], "&to 0")
-        self.assertEqual(layer_bindings(TARGET)[4][48], "&to 0")
+        self.assertEqual(layer_bindings(TARGET)[4][47], "&to 0")
+
+    def test_bottom_row_uses_inner_five_columns_on_both_halves(self):
+        base = layer_bindings(TARGET)[0]
+        self.assertEqual(base[38:50], [
+            "&none", "&kp LSHFT", "&kp LALT", "&kp LCMD", "&lt_l 1 SPACE", "&kp LCTRL",
+            "&kp BSPC", "&lt_r 2 ENTER", "&lt_r 3 RSHFT", "&kp RALT", "&mt RSHFT SLASH", "&none",
+        ])
 
     def test_combos_keep_physical_positions_timing_and_scope(self):
         combos = {
@@ -82,7 +89,7 @@ class SourceFidelity(unittest.TestCase):
                      "PRECISION", "HSCROLL", "SCROLL MENU"):
             self.assertNotIn(f'display-name = "{name}"', TARGET)
         for behavior in ("menu_lt", "menu_zoom", "zoom_hold", "drag_on", "drag_off",
-                         "drag_cancel", "dl", "mkp"):
+                         "drag_cancel", "dl"):
             self.assertNotRegex(TARGET, r"\b" + behavior + r"\s*:")
             self.assertNotRegex(TARGET, r"&" + behavior + r"\b")
         self.assertNotIn("input/processors.dtsi", TARGET)
@@ -102,17 +109,24 @@ class SourceFidelity(unittest.TestCase):
         self.assertEqual(TARGET, adapter.generate())
 
     def test_unused_positions_never_perform_an_action(self):
-        # These ten positions have no counterpart in the original 40-key map.
-        unused = (0, 11, 12, 23, 24, 30, 31, 37, 41, 47)
+        # Every row's outer column stays disabled, including the bottom row.
+        unused = (0, 11, 12, 23, 24, 37, 38, 49)
         for index, layer in enumerate(layer_bindings(TARGET)):
             for position in unused:
                 with self.subTest(layer=index, position=position):
                     self.assertEqual(layer[position], "&none")
         self.assertNotIn("&studio_unlock", TARGET)
 
-    def test_no_encoder_actions_are_added(self):
-        self.assertNotIn("sensor-bindings", TARGET)
-        self.assertNotIn("cornix_scroll", TARGET)
+    def test_stock_encoders_work_on_every_layer(self):
+        for layer in layer_bindings(TARGET):
+            self.assertEqual(layer[30], "&kp C_MUTE")
+            self.assertEqual(layer[31], "&mkp MB3")
+        self.assertEqual(TARGET.count(
+            "sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &cornix_scroll>;"), 5)
+        # Vial's stock CCW/CW pairs are [volume down, volume up] and
+        # [wheel up, wheel down]. ZMK takes clockwise then counterclockwise.
+        self.assertIn("<&msc SCRL_DOWN>, <&msc SCRL_UP>", node(TARGET, "cornix_scroll"))
+        self.assertNotIn("inc_dec_kp SCRL", TARGET)
 
 
 if __name__ == "__main__":
