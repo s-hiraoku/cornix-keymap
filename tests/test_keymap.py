@@ -81,7 +81,6 @@ class SourceFidelity(unittest.TestCase):
             self.assertNotIn("LCTL(KC_LEFT)", " ".join(layers[layer]))
             self.assertNotIn("&kp LC(LEFT)", " ".join(layers[layer]))
         self.assertNotIn("input/processors.dtsi", TARGET)
-        self.assertIn("&studio_unlock", layers[8])
 
     def test_generated_file_is_current(self):
         spec = importlib.util.spec_from_file_location("adapter", ROOT / "scripts/import_kobitokey.py")
@@ -89,10 +88,18 @@ class SourceFidelity(unittest.TestCase):
         spec.loader.exec_module(adapter)
         self.assertEqual(TARGET, adapter.generate())
 
-    def test_encoder_scroll_uses_pointing_behavior(self):
-        self.assertIn("<&msc SCRL_UP>, <&msc SCRL_DOWN>", node(TARGET, "cornix_scroll"))
-        self.assertNotIn("&inc_dec_kp SCRL", TARGET)
-        self.assertEqual(TARGET.count("sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &cornix_scroll>;"), 14)
+    def test_unused_positions_never_perform_an_action(self):
+        # These ten positions have no counterpart in the original 40-key map.
+        unused = (0, 11, 12, 23, 24, 30, 31, 37, 41, 47)
+        for index, layer in enumerate(layer_bindings(TARGET)):
+            for position in unused:
+                with self.subTest(layer=index, position=position):
+                    self.assertEqual(layer[position], "&none")
+        self.assertNotIn("&studio_unlock", TARGET)
+
+    def test_no_encoder_actions_are_added(self):
+        self.assertNotIn("sensor-bindings", TARGET)
+        self.assertNotIn("cornix_scroll", TARGET)
 
 
 if __name__ == "__main__":

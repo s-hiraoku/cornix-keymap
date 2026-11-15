@@ -40,17 +40,6 @@ def generate():
     start = source.index("    keymap {")
     end = source.index("\n    };\n};\n\n/* lt", start) + len("\n    };")
     prefix = source[:start].replace("#include <input/processors.dtsi>\n", "")
-    # Scroll deltas are pointing values, not HID keycodes: they must go through
-    # mouse_scroll (&msc), rather than inc_dec_kp's key_press behavior.
-    prefix = prefix.replace("    behaviors {\n", "    behaviors {\n" + """
-        cornix_scroll: cornix_scroll {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
-            tap-ms = <20>;
-        };
-
-""", 1)
 
     def remap(match):
         old = [int(p) for p in match[1].split()]
@@ -62,21 +51,11 @@ def generate():
         source_keys = bindings(body)
         if len(source_keys) != 40:
             raise ValueError(f"{node}: expected 40 source positions")
-        keys = ["&trans"] * 50
+        # Unused hardware positions must stay inert on every layer. &trans
+        # would inherit a lower layer; &none explicitly performs no action.
+        keys = ["&none"] * 50
         for old, new in enumerate(POSITIONS):
             keys[new] = source_keys[old]
-        if layer_index == 0:
-            # Cornix-only positions: preserve useful existing outer keys/knobs.
-            for position, binding in {
-                0: "&kp ESC", 11: "&kp BSPC", 12: "&kp TAB", 23: "&kp ENTER",
-                24: "&kp LSHFT", 30: "&kp C_MUTE", 31: "&mkp MB3",
-                37: "&mt RSHFT SLASH", 41: "&mo 8", 47: "&mo 4",
-            }.items():
-                keys[position] = binding
-        elif layer_index == 8:
-            keys[0] = "&studio_unlock"
-            keys[11] = "&to 0"
-
         output.extend([
             f"        {node} {{",
             f'            display-name = "{LAYER_NAMES[layer_index]}";',
@@ -86,7 +65,6 @@ def generate():
             output.append("                " + "  ".join(keys[first:last]))
         output.extend([
             "            >;",
-            "            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &cornix_scroll>;",
             "        };", "",
         ])
     output.append("    };")
@@ -97,6 +75,7 @@ def generate():
         " * or the position adapter, then regenerate and run the tests.\n"
         " * Trackball input processors are absent: Cornix has no such sensor.\n"
         " * All 14 source layers/behaviors remain for keyboard fidelity.\n"
+        " * Unused positions are &none; no encoder actions are added.\n"
         " */\n\n"
     )
     return header + prefix + "\n".join(output) + source[end:]
