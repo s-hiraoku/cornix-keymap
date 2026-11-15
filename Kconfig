@@ -1,0 +1,10 @@
+# The pinned Cornix module provides ZMK physical layouts, split roles,
+# USB, settings storage and a UF2 partition map. Its dedicated ZMK boards
+# predate the ZMK_BOARD_COMPAT declaration introduced in newer build CI.
+# Keep this compatibility default scoped to those two boards only.
+if BOARD_CORNIX_LEFT || BOARD_CORNIX_RIGHT
+
+config ZMK_BOARD_COMPAT
+    default y
+
+endif

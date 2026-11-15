@@ -1,0 +1,16 @@
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: numachang
+      url-base: https://github.com/numachang
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: 7626064e74f7be92592f90028d527ba7fd97a337
+      import: app/west.yml
+    - name: cornix-zmk-custom
+      remote: numachang
+      revision: ade15a303257ffb2c11357839ff39199b863b087
+  self:
+    path: config

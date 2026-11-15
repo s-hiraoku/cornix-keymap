@@ -1,0 +1,30 @@
+name: Build Cornix ZMK
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - config/**
+      - build.yaml
+      - Kconfig
+      - zephyr/**
+      - tests/**
+      - scripts/**
+      - .github/workflows/**
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check source fidelity and physical positions
+        run: python3 -m unittest discover -s tests -v
+
+  firmware:
+    needs: validate
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@7626064e74f7be92592f90028d527ba7fd97a337
