@@ -19,28 +19,35 @@ def node(text, name):
 
 
 class SourceFidelity(unittest.TestCase):
-    def test_all_560_source_bindings_match(self):
+    def test_keyboard_layers_match_source_with_explicit_cornix_changes(self):
         old, new = layer_bindings(SOURCE), layer_bindings(TARGET)
         self.assertEqual(len(old), 14)
-        self.assertEqual(len(new), 14)
+        self.assertEqual(len(new), 5)
         # Independently describe the physical character rows and bottom row.
         positions = [*range(1, 11), *range(13, 23), *range(25, 30), *range(32, 37),
                      38, 39, 40, 42, 43, 44, 45, 46, 48, 49]
         self.assertEqual(len(set(positions)), 40)
-        for layer in range(14):
-            self.assertEqual(len(old[layer]), 40)
+        for layer, source_layer in enumerate((0, 1, 2, 3, 8)):
+            self.assertEqual(len(old[source_layer]), 40)
             self.assertEqual(len(new[layer]), 50)
             for i, position in enumerate(positions):
                 with self.subTest(layer=layer, source=i, cornix=position):
-                    self.assertEqual(new[layer][position], old[layer][i])
+                    expected = old[source_layer][i]
+                    if layer == 0 and i in (5, 9, 15):
+                        expected = {5: "&kp Y", 9: "&kp P", 15: "&kp H"}[i]
+                    self.assertEqual(new[layer][position], expected)
+
+    def test_default_y_h_p_are_plain_repeatable_letters(self):
+        base = layer_bindings(TARGET)[0]
+        for position, binding in ((6, "&kp Y"), (18, "&kp H"), (10, "&kp P")):
+            self.assertEqual(base[position], binding)
 
     def test_ctrl_space_physical_order(self):
         base = layer_bindings(TARGET)[0]
         self.assertEqual(base[42], "&lt_l 1 SPACE")
         self.assertEqual(base[43], "&kp LCTRL")
-        for layer in (4, 8, 13):
-            self.assertEqual(layer_bindings(TARGET)[layer][43], "&to 0")
-        self.assertEqual(layer_bindings(TARGET)[10][43], "&drag_cancel")
+        self.assertEqual(layer_bindings(TARGET)[4][43], "&to 0")
+        self.assertEqual(layer_bindings(TARGET)[4][48], "&to 0")
 
     def test_combos_keep_physical_positions_timing_and_scope(self):
         combos = {
@@ -48,7 +55,7 @@ class SourceFidelity(unittest.TestCase):
             "combo_kana": ([19, 20], 80, "&kp LANG1", None),
             "combo_esc": ([1, 2], 50, "&kp ESC", [0]),
             "combo_tab": ([13, 14], 50, "&kp TAB", [0]),
-            "combo_bt": ([44, 46], 50, "&to 8", [0]),
+            "combo_bt": ([44, 46], 50, "&to 4", [0]),
         }
         for name, (positions, timeout, binding, scope) in combos.items():
             body = node(TARGET, name)
@@ -62,8 +69,7 @@ class SourceFidelity(unittest.TestCase):
                 self.assertEqual(values("layers"), scope)
 
     def test_custom_behaviors_are_copied_verbatim(self):
-        for name in ("zoom_hold", "drag_on", "drag_off", "drag_cancel", "dl", "menu_lt",
-                     "menu_zoom", "lt_l", "lt_r"):
+        for name in ("lt_l", "lt_r"):
             self.assertEqual(node(TARGET, name), node(SOURCE, name), name)
         for behavior in ("lt", "mt"):
             pattern = r"&" + behavior + r"\s*\{(.*?)\n};"
@@ -71,16 +77,23 @@ class SourceFidelity(unittest.TestCase):
         self.assertIn("retro-tap;", node(TARGET, "lt_l"))
         self.assertNotIn("retro-tap;", node(TARGET, "lt_r"))
 
-    def test_drag_cancel_releases_button_before_leaving(self):
-        body = node(TARGET, "drag_cancel")
-        self.assertLess(body.index("&macro_release &mkp MB1"), body.index("&macro_tap &to 0"))
-
-    def test_no_invented_gesture_direction_bindings(self):
-        layers = layer_bindings(TARGET)
-        for layer in (5, 6, 7, 9, 11, 12, 13):
-            self.assertNotIn("LCTL(KC_LEFT)", " ".join(layers[layer]))
-            self.assertNotIn("&kp LC(LEFT)", " ".join(layers[layer]))
+    def test_trackball_modes_and_macros_are_absent(self):
+        for name in ("MOUSE", "GESTURE", "DESKTOP", "TAB", "ZOOM", "DRAG",
+                     "PRECISION", "HSCROLL", "SCROLL MENU"):
+            self.assertNotIn(f'display-name = "{name}"', TARGET)
+        for behavior in ("menu_lt", "menu_zoom", "zoom_hold", "drag_on", "drag_off",
+                         "drag_cancel", "dl", "mkp"):
+            self.assertNotRegex(TARGET, r"\b" + behavior + r"\s*:")
+            self.assertNotRegex(TARGET, r"&" + behavior + r"\b")
         self.assertNotIn("input/processors.dtsi", TARGET)
+
+    def test_all_layer_targets_exist(self):
+        layers = layer_bindings(TARGET)
+        for body in layers:
+            for binding in body:
+                if binding.split()[0] in ("&lt_l", "&lt_r", "&mo", "&to", "&tog"):
+                    self.assertLess(int(binding.split()[1]), len(layers))
+        self.assertIn("bindings = <&to 4>;", node(TARGET, "combo_bt"))
 
     def test_generated_file_is_current(self):
         spec = importlib.util.spec_from_file_location("adapter", ROOT / "scripts/import_kobitokey.py")

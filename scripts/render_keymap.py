@@ -29,24 +29,14 @@ KEYS = {
     **{f"N{i}": str(i) for i in range(10)},
 }
 SHORT_LAYERS = {
-    1: "L1 Fn", 2: "L2 Num", 3: "L3 Symbol", 5: "L5 Gesture", 6: "L6 Tab",
-    7: "L7 Desktop", 11: "L11 Prec", 12: "L12 HScroll",
+    1: "L1 Fn", 2: "L2 Num", 3: "L3 Symbol",
 }
 SUBTITLES = {
     0: "通常入力  ·  青い下段は長押しの動作  ·  Alt = Option / Cmd = Command",
     1: "Space を押しながら操作  ·  Fキー / カーソル / ページ移動",
     2: "親指 Enter を押しながら操作  ·  数字 / 四則演算  ·  親指 Bksp は Delete",
     3: "親指 Symbol（タップ側は RShift）を押しながら操作  ·  Shift 不要の記号入力",
-    8: "親指 Bksp + Symbol の同時押しで入る  ·  LCtrl / RAlt の位置で通常へ戻る",
-    4: "元のマウス用定義を保持  ·  Cornix ではトラックボールによる自動発動なし",
-    5: "Y 長押しで入る  ·  トラックボールの移動によるジェスチャーは発生しない",
-    6: "P 長押しで入る  ·  トラックボールの移動によるタブ操作は発生しない",
-    7: "H 長押しで入る  ·  トラックボールの移動による画面操作は発生しない",
-    9: "元の Cmd 保持 + Layer 9 の定義を保持  ·  トラックボール入力はなし",
-    10: "元のドラッグロック用定義を保持  ·  解除時はマウスボタンを先に離す",
-    11: "全キー透過  ·  元の精密化はトラックボール用のため Cornix では動作しない",
-    12: "全キー透過  ·  元の横軸固定はトラックボール用のため Cornix では動作しない",
-    13: "元の機能入口を保持  ·  左トラックボールによる自動発動なし",
+    4: "親指 Bksp + Symbol の同時押しで入る  ·  LCtrl / RAlt の位置で通常へ戻る",
 }
 
 
@@ -61,27 +51,12 @@ def label(binding):
         return "▽", ""
     if op == "&kp":
         return key(p[1]), ""
-    if op in ("&lt_l", "&lt_r", "&menu_lt", "&lt"):
+    if op in ("&lt_l", "&lt_r"):
         return key(p[2]), SHORT_LAYERS[int(p[1])]
     if op == "&mt":
         return key(p[2]), key(p[1])
-    if op == "&mo":
-        return SHORT_LAYERS[int(p[1])], "押している間"
     if op == "&to":
         return "通常へ", "Layer " + p[1]
-    if op == "&mkp":
-        return {"MB1": "左クリック", "MB2": "右クリック", "MB3": "中クリック",
-                "MB4": "ボタン4", "MB5": "ボタン5"}[p[1]], ""
-    if op == "&dl":
-        return key(p[2]), "Drag lock"
-    if op == "&zoom_hold":
-        return "Zoom", "Cmd + L9"
-    if op == "&menu_zoom":
-        return key(p[2]), "Zoom"
-    if op == "&drag_off":
-        return "Drag解除", ""
-    if op == "&drag_cancel":
-        return "Drag解除", "通常へ戻る"
     if op == "&bt":
         if p[1] == "BT_SEL":
             return "BT " + p[2], "接続先を選択"
@@ -114,10 +89,7 @@ def layer_card(index, name, keys, y):
         x, ky = 36 + side * 576 + column * 96, y + 92 + row * 66
         tap, hold = label(binding)
         transparent = binding == "&trans"
-        is_hold = binding.split()[0] in (
-            "&lt_l", "&lt_r", "&menu_lt", "&lt", "&mt", "&mo", "&dl",
-            "&zoom_hold", "&menu_zoom",
-        )
+        is_hold = binding.split()[0] in ("&lt_l", "&lt_r", "&mt")
         fill = "#f0f3f7" if transparent else "#eaf3ff" if is_hold else "#fff"
         parts.extend([f'<g><title>{escape(binding)}</title>',
                       rect(x, ky, 88, 58, fill, "#d2dce8", 9)])
@@ -146,7 +118,7 @@ def combo_card(source, base, y):
             tap, hold = label(base[p])
             names.append("Symbol" if hold == "L3 Symbol" else tap)
         output = bindings(re.search(r'bindings\s*=\s*<(.*?)>', body, re.S)[1])[0]
-        result = "BT 設定へ" if output == "&to 8" else label(output)[0]
+        result = "BT 設定へ" if output == "&to 4" else label(output)[0]
         timeout = re.search(r'timeout-ms\s*=\s*<(\d+)>', body)[1]
         scope = "基本レイヤーのみ" if re.search(r'\blayers\s*=', body) else "全レイヤー"
         x, cy = 36 + (i % 2) * 534, y + 60 + (i // 2) * 55
@@ -156,9 +128,9 @@ def combo_card(source, base, y):
     return parts
 
 
-def render(source, layers, indices, extras=False):
-    height = 140 + len(indices) * CARD_HEIGHT + (254 if extras else 0)
-    title = "Cornix LP — KobitoKey / 40 keys" if extras else "保持しているトラックボール関連レイヤー"
+def render(source, layers):
+    height = 140 + len(layers) * CARD_HEIGHT + 254
+    title = "Cornix LP — KobitoKey / 40 keys"
     desc = "現在のキーマップから生成。上段はタップ、青い下段は長押し。透過は▽。元の40キーのみを図示。"
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{height}" '
              f'viewBox="0 0 {WIDTH} {height}" role="img" aria-labelledby="title desc">',
@@ -167,14 +139,11 @@ def render(source, layers, indices, extras=False):
              rect(0, 0, WIDTH, height, "#f5f8fc", radius=0),
              text(32, 45, title, 29, weight=700),
              text(32, 78, "上段：タップ / 動作　　青い下段：長押し　　▽：下位の有効なレイヤーを使う", 17, "#52667e"),
-             text(32, 106, "元の40キーのみを図示。外周・追加10位置とノブ回転はすべて無効。" if extras else
-                  "Cornix にトラックボールはありません。図は保持した定義で、センサー操作は発生しません。",
+             text(32, 106, "40キー・5レイヤー。Y / H / P は通常の文字キー。外周・追加位置・ノブは無効。",
                   16, "#52667e")]
-    for n, index in enumerate(indices):
-        name, keys = layers[index]
-        parts.extend(layer_card(index, name, keys, 124 + n * CARD_HEIGHT))
-    if extras:
-        parts.extend(combo_card(source, layers[0][1], 124 + len(indices) * CARD_HEIGHT))
+    for index, (name, keys) in enumerate(layers):
+        parts.extend(layer_card(index, name, keys, 124 + index * CARD_HEIGHT))
+    parts.extend(combo_card(source, layers[0][1], 124 + len(layers) * CARD_HEIGHT))
     parts.extend(["</g>", "</svg>", ""])
     return "\n".join(parts)
 
@@ -183,11 +152,10 @@ def generate():
     source = SOURCE.read_text()
     layers = [(name, bindings(body)) for name, body in re.findall(
         r'display-name\s*=\s*"([^"]+)";\s*bindings\s*=\s*<(.*?)>;', source, re.S)]
-    if len(layers) != 14 or any(len(keys) != 50 for _, keys in layers):
-        raise ValueError("Expected 14 Cornix layers with 50 hardware positions")
+    if len(layers) != 5 or any(len(keys) != 50 for _, keys in layers):
+        raise ValueError("Expected 5 Cornix layers with 50 hardware positions")
     return {
-        ROOT / "docs/keymap.svg": render(source, layers, (0, 1, 2, 3, 8), extras=True),
-        ROOT / "docs/keymap-trackball.svg": render(source, layers, (4, 5, 6, 7, 9, 10, 11, 12, 13)),
+        ROOT / "docs/keymap.svg": render(source, layers),
     }
 
 

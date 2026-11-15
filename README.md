@@ -22,40 +22,23 @@ macOS・US（ANSI）配列向けの Cornix LP 用 ZMK 設定です。
 
 各レイヤーは元の40キーを4行×左右5列に揃えた模式図です。
 基板定義にある残り10位置（外周・追加親指位置・ノブ押し込み）は、
-全14レイヤーで `&none`（無効）です。ノブ回転も無効です。
+全5レイヤーで `&none`（無効）です。ノブ回転も無効です。
 
-<details>
-<summary>保持している残り9レイヤー（トラックボール関連）を見る</summary>
-
-元の Layer 4〜7・9〜13 のキー定義も保持しています。
-**Cornixにはトラックボールがないため、センサーによるジェスチャーや自動レイヤー切替は発生しません。**
-各レイヤーの説明を図の上部に記載しています。図中の「長押し」はそのレイヤーが有効な間の動作です。
-
-[![保持しているトラックボール関連9レイヤーのキー定義](docs/keymap-trackball.svg)](docs/keymap-trackball.svg)
-
-</details>
-
-## 元設定との一致範囲
+## 元設定から維持する動作とCornix向けの変更
 
 - 参照コミット: `35b175d2717d9d09373212c6f93f6aa80deb338a`。
-- 元の **40 キー × 14 レイヤー = 560 bindings** を位置対応で保持。
-- 5 コンボの出力・80/50ms 判定・適用レイヤーを保持。
-- `lt_l` / `lt_r` / `menu_lt` 等の behavior を保持。
-  `180ms` / `quick-tap-ms=125` / `require-prior-idle-ms=90`、
-  左 Space だけの `retro-tap` も元の記述を使います。
-- ドラッグロックと、終了時にボタンを先に離すマクロも保持。
-- 元の40キー以外の10位置は全レイヤーで無効。追加の外周キー、BT/MOUSEキー、
-  Studio Unlock、ノブ押し込み・回転の割り当てはありません。
-
-**Cornix LP にトラックボールはありません。** センサードライバー、加速、精密化、
-軸固定、移動によるマウスレイヤーや SCROLL MENU の自動発動は含めていません。
-Layers 5/6/7/9/11/12/13 のキー定義は保持していますが、センサー由来の動作は発生しません。
-Y/H/P 長押しは元と同じレイヤーに入りますが、トラックボールジェスチャーはありません。
-独自の「Y+方向キーで画面操作」といった代替操作は追加していません。
-
-Layer 4 の U/I/O の左/中/右クリック、J/L のボタン4/5、K 長押しの
-ドラッグロックも定義として保持します。ただし元の入口はトラックボール操作のため、
-Cornixでは自動発動しません。代替の MOUSE キーは追加しません。
+- 文字・Fn・数字・記号・BTのキー配置を移植。下記のY/H/P以外は対応する元のキー定義を保持します。
+- 5コンボの操作・80/50ms判定・適用レイヤーを維持します。
+- Space / Enter / Symbol / 右端 `/` の長押し判定も維持します。
+  `180ms` / `quick-tap-ms=125` / `require-prior-idle-ms=90`、左Spaceだけの `retro-tap` も元と同じです。
+- **Y・H・Pは通常の文字キー**です。長押しでも文字をリピートし、別レイヤーへ移動しません。
+- **トラックボール専用の9レイヤーとマクロを削除**しました。
+  Cornixにないセンサーを前提とするMOUSE / GESTURE / TAB / DESKTOP / ZOOM / DRAG /
+  PRECISION / HSCROLL / SCROLL MENUは含めません。
+- BTは元のLayer 8から**Layer 4**へ番号を整理しました。
+  入口は元と同じ親指Bksp+Symbol、通常への復帰はLCtrl / RAltの位置です。
+- 元の40キー以外の10位置、ノブ回転・押し込みは無効です。
+  外周キーや追加のBT/MOUSEキー、Studio Unlockを割り当てません。
 
 ## ビルドと導入
 
@@ -77,8 +60,8 @@ ZMK と Cornix の基板モジュールは `config/west.yml` でコミットを�
 
 ## AI と設定を変更する
 
-1. 元のキー動作を変える場合は `tests/fixtures/KobitoKey.keymap` を編集する。
-   Cornix の位置対応を変える場合は `scripts/import_kobitokey.py` を編集する。
+1. `tests/fixtures/KobitoKey.keymap` は参照元の記録として保持する。
+   Cornix向けの位置対応・文字キー化・採用レイヤーは `scripts/import_kobitokey.py` で管理する。
 2. `python3 scripts/import_kobitokey.py` で `config/cornix.keymap` を生成する。
 3. `python3 scripts/render_keymap.py` でREADME用のSVGを更新する。
 4. `python3 -m unittest discover -s tests -v` で参照元・物理位置との整合を確認する。
@@ -86,7 +69,7 @@ ZMK と Cornix の基板モジュールは `config/west.yml` でコミットを�
 5. Git に保存し、Actions のビルド結果を確認する。
 
 参照 fixture はリポジトリ内に保存してあり、ビルド時に元リポジトリの main を取得しません。
-意図して元のコンボ・長押し仕様を変更した場合は、該当する検証もその意図に合わせて更新します。
+意図してコンボ・長押し仕様を変更した場合は、該当する検証もその意図に合わせて更新します。
 
 ZMK へ移行後、Vial/vitaly の `.vil` は ZMK には適用できません。
 配置確認には [ZMK Studio](https://zmk.studio/) を使います。

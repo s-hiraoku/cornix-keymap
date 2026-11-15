@@ -5,7 +5,7 @@
 <rect x="0" y="0" width="1120" height="2394" rx="0" fill="#f5f8fc" stroke="none"/>
 <text x="32" y="45" font-size="29" fill="#18304b" font-weight="700" text-anchor="start">Cornix LP — KobitoKey / 40 keys</text>
 <text x="32" y="78" font-size="17" fill="#52667e" font-weight="400" text-anchor="start">上段：タップ / 動作　　青い下段：長押し　　▽：下位の有効なレイヤーを使う</text>
-<text x="32" y="106" font-size="16" fill="#52667e" font-weight="400" text-anchor="start">元の40キーのみを図示。外周・追加10位置とノブ回転はすべて無効。</text>
+<text x="32" y="106" font-size="16" fill="#52667e" font-weight="400" text-anchor="start">40キー・5レイヤー。Y / H / P は通常の文字キー。外周・追加位置・ノブは無効。</text>
 <g id="layer-0">
 <rect x="16" y="124" width="1088" height="384" rx="12" fill="#fff" stroke="#d8e1ec"/>
 <rect x="32" y="144" width="5" height="32" rx="2" fill="#246bc4" stroke="none"/>
@@ -31,10 +31,9 @@
 <rect x="420" y="216" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
 <text x="464" y="253" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">T</text>
 </g>
-<g><title>&amp;menu_lt 5 Y</title>
-<rect x="612" y="216" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
-<text x="656" y="244" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">Y</text>
-<text x="656" y="263" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">L5 Gesture</text>
+<g><title>&amp;kp Y</title>
+<rect x="612" y="216" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="656" y="253" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">Y</text>
 </g>
 <g><title>&amp;kp U</title>
 <rect x="708" y="216" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
@@ -48,10 +47,9 @@
 <rect x="900" y="216" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
 <text x="944" y="253" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">O</text>
 </g>
-<g><title>&amp;menu_lt 6 P</title>
-<rect x="996" y="216" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
-<text x="1040" y="244" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">P</text>
-<text x="1040" y="263" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">L6 Tab</text>
+<g><title>&amp;kp P</title>
+<rect x="996" y="216" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="1040" y="253" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">P</text>
 </g>
 <g><title>&amp;kp A</title>
 <rect x="36" y="282" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
@@ -73,10 +71,9 @@
 <rect x="420" y="282" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
 <text x="464" y="319" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">G</text>
 </g>
-<g><title>&amp;menu_lt 7 H</title>
-<rect x="612" y="282" width="88" height="58" rx="9" fill="#eaf3ff" stroke="#d2dce8"/>
-<text x="656" y="310" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">H</text>
-<text x="656" y="329" font-size="12" fill="#195eb4" font-weight="500" text-anchor="middle">L7 Desktop</text>
+<g><title>&amp;kp H</title>
+<rect x="612" y="282" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
+<text x="656" y="319" font-size="22" fill="#18304b" font-weight="600" text-anchor="middle">H</text>
 </g>
 <g><title>&amp;kp J</title>
 <rect x="708" y="282" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
@@ -677,10 +674,10 @@
 <text x="1040" y="1651" font-size="22" fill="#8796a8" font-weight="600" text-anchor="middle">▽</text>
 </g>
 </g>
-<g id="layer-8">
+<g id="layer-4">
 <rect x="16" y="1724" width="1088" height="384" rx="12" fill="#fff" stroke="#d8e1ec"/>
 <rect x="32" y="1744" width="5" height="32" rx="2" fill="#246bc4" stroke="none"/>
-<text x="49" y="1768" font-size="25" fill="#18304b" font-weight="700" text-anchor="start">08  BT</text>
+<text x="49" y="1768" font-size="25" fill="#18304b" font-weight="700" text-anchor="start">04  BT</text>
 <text x="36" y="1797" font-size="15" fill="#52667e" font-weight="400" text-anchor="start">親指 Bksp + Symbol の同時押しで入る  ·  LCtrl / RAlt の位置で通常へ戻る</text>
 <g><title>&amp;kp C_MUTE</title>
 <rect x="36" y="1816" width="88" height="58" rx="9" fill="#fff" stroke="#d2dce8"/>
