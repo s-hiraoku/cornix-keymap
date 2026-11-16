@@ -13,12 +13,13 @@ DESTINATION = ROOT / "config/cornix.keymap"
 
 # Source: 3 x 10 character keys, then 5 left and 5 right bottom keys.
 # Cornix: 12 + 12 + 14 (including encoder presses) + 12 positions.
+# Every row uses the inner five columns; the outer column stays disabled.
 # Space is Cornix position 42 and Ctrl is 43, as requested by the user.
 POSITIONS = (
     1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
     13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
     25, 26, 27, 28, 29, 32, 33, 34, 35, 36,
-    38, 39, 40, 42, 43, 44, 45, 46, 48, 49,
+    39, 40, 41, 42, 43, 44, 45, 46, 47, 48,
 )
 SOURCE_LAYERS = (0, 1, 2, 3, 8)
 LAYER_NAMES = ("DEFAULT", "FUNCTION", "NUMBER", "SYMBOL", "BT")
@@ -40,8 +41,17 @@ def generate():
     # Keep the source combos and thumb hold-taps, without trackball macros.
     prefix = source[:source.index("/ {")]
     prefix = prefix.replace("#include <input/processors.dtsi>\n", "")
-    prefix = prefix.replace("#include <dt-bindings/zmk/pointing.h>\n", "")
-    prefix += "/ {\n" + source[source.index("    combos {"):start]
+    prefix += """/ {
+    behaviors {
+        cornix_scroll: cornix_scroll {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+            tap-ms = <20>;
+        };
+    };
+
+""" + source[source.index("    combos {"):start]
     prefix = prefix.replace("bindings = <&to 8>;", "bindings = <&to 4>;")
 
     def remap(match):
@@ -60,6 +70,9 @@ def generate():
         keys = ["&none"] * 50
         for old, new in enumerate(POSITIONS):
             keys[new] = source_keys[old]
+        # Stock Cornix encoder pushes: left mute, right middle mouse.
+        keys[30] = "&kp C_MUTE"
+        keys[31] = "&mkp MB3"
         if layer_index == 0:
             # Cornix has no trackball: these letters must repeat normally,
             # rather than entering gesture, desktop, or tab sensor modes.
@@ -75,6 +88,7 @@ def generate():
             output.append("                " + "  ".join(keys[first:last]))
         output.extend([
             "            >;",
+            "            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &cornix_scroll>;",
             "        };", "",
         ])
     output.append("    };")
@@ -86,7 +100,7 @@ def generate():
         " * Trackball input processors are absent: Cornix has no such sensor.\n"
         " * Keyboard layers 0/1/2/3 and source BT layer 8 (now 4) remain.\n"
         " * Default Y/H/P are plain letters; trackball-only modes are removed.\n"
-        " * Unused positions are &none; no encoder actions are added.\n"
+        " * Outer columns are &none; encoder volume/scroll/pushes match stock.\n"
         " */\n\n"
     )
     return header + prefix + "\n".join(output) + source[end:]
